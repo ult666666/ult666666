@@ -19,6 +19,12 @@ I'm a student at **Carnegie Mellon University** who enjoys turning ambiguous ide
 
 **Also built:** [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily), a deterministic TypeScript/Devvit community puzzle; [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a tested Node.js classroom demo with server-computed totals; and [JUST-QR](https://github.com/ult666666/JUST-QR), a minimal browser QR generator.
 
+### Review the engineering
+
+[Portfolio checks and browser tests](https://github.com/ult666666/ult666666.github.io/actions/workflows/portfolio.yml) · [LineageGuard CI](https://github.com/ult666666/lineageguard-datahub-agent/actions/workflows/tests.yml) · [LineageGuard source-to-test guide](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ENGINEERING_REVIEW.md)
+
+These links expose runnable checks and implementation details, not just screenshots. The LineageGuard checks use synthetic data and a local MCP mock; they do not claim a production-tenant validation.
+
 ### What I work with
 
 **Frontend:** TypeScript, JavaScript, React, Next.js, HTML/CSS, Tailwind CSS
