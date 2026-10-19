@@ -1,54 +1,52 @@
 # Charles Dai
 
-**Software developer · AI systems · Full-stack applications · Fintech**
+**Software developer · Fintech research tools · AI systems**
 
-I'm a student at **Carnegie Mellon University** who enjoys turning ambiguous ideas into working, testable software. I build across frontend interfaces, backend logic, AI-assisted workflows, and the safeguards that make a system trustworthy.
+I'm a **Carnegie Mellon University student** building full-stack products and AI-assisted workflows. I care about clear interfaces, deterministic logic and evidence that a reviewer can inspect.
 
-[**Portfolio & case studies ↗**](https://ult666666.github.io/) · [GitHub projects](https://github.com/ult666666?tab=repositories) · [MOTIONX](https://madebymotionx.com/)
+[**Portfolio & case studies ↗**](https://ult666666.github.io/) · [Public repositories](https://github.com/ult666666?tab=repositories) · [MOTIONX](https://madebymotionx.com/)
 
----
+## Featured: Frontier AI Valuation Lab
 
-### Selected work
+An independent, AI-assisted fintech research workspace. Compare illustrative Anthropic and OpenAI valuations, explain a scenario change, and keep the exact analysis with its rationale and dated evidence.
 
-| Project | What I built | Explore |
+[**Try the workspace ↗**](https://frontier-ai-valuation-lab.vercel.app/) · [Engineering case study](https://ult666666.github.io/projects/frontier-ai-valuation-lab.html) · [Source](https://github.com/ult666666/frontier-ai-valuation-lab)
+
+1. **Compare and explain.** Apply a stress in the Overview and choose **Explain this change** to carry the exact baseline and alternative into Thesis Lab.
+2. **Inspect the assumptions.** Open either case in the Model, edit it and return with the other case, target and comparison settings intact.
+3. **Keep the reasoning.** Save to the Research Casebook, record a rationale and review trigger, then export JSON or a printable brief. Notes stay in the current browser unless exported.
+
+### Review the implementation
+
+| Engineering question | Where to look |
+| --- | --- |
+| How is the calculation checked? | A [shared browser/Node engine](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/public/lib/model.js), [real HTTP tests](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/api.test.js) and [separate Python parity checks](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/reference_parity.py). |
+| Can research survive edits and failed saves? | The [journey module](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/public/lib/journey.js) preserves exact comparisons; [storage tests](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/casebook-store.test.js) exercise corrupt data, blocked storage and quota failures. |
+| What is reported evidence versus an assumption? | The [contextual evidence method](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/EVIDENCE_CONTEXT.md) keeps source dates, definitions and modeling limits visible. |
+
+Application 3.3 retains financial engine 3.0 and the **18 October 2026 research snapshot**. Browser/API agreement establishes consistency; the independent Python implementation checks arithmetic. These checks do not establish forecast accuracy or investment returns. See the [verification record and its scope](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md).
+
+## More selected work
+
+| Project | What it demonstrates | Explore |
 | --- | --- | --- |
-| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** | An independent Anthropic/OpenAI valuation workbench with a shared browser/Node FCFF engine, a tested JSON API, independent Python checks, and a dated source register. AI-assisted research and implementation; illustrative operating values, with editable Excel and PDF review. | [Live demo ↗](https://frontier-ai-valuation-lab.vercel.app/) |
-| **[LineageGuard](https://github.com/ult666666/lineageguard-datahub-agent)** | A metadata-aware schema-change review workflow that uses DataHub context to identify downstream impact and produce migration guidance. | [Live demo ↗](https://lineageguard-datahub-agent.vercel.app/) |
-| **[MOTIONX Studio](https://github.com/ult666666/motionx-studio)** | A motion-first website in Next.js, TypeScript, and Tailwind, alongside a Python outreach workflow built around deterministic validation. | [Live site ↗](https://madebymotionx.com/) |
-| **[Agentic Trading Research](https://github.com/ult666666/agentic-trading-research)** | A research-only orchestration architecture where LLM-generated proposals must pass deterministic Python checks and provenance rules. **No automated order execution.** | [Architecture ↗](https://github.com/ult666666/agentic-trading-research#readme) |
-| **[ProofCast](https://github.com/ult666666/proofcast-backblaze)** | Local speech and accessible cover generation, SHA-256 asset provenance, and opt-in Backblaze B2 storage integration. | [Source ↗](https://github.com/ult666666/proofcast-backblaze) |
+| **LineageGuard** | A metadata-aware schema-change review using DataHub context, downstream impact and migration guidance. | [Source](https://github.com/ult666666/lineageguard-datahub-agent) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
+| **MOTIONX Studio** | A motion-first Next.js/TypeScript website, with a separate Python workflow for validated outreach drafts. | [Source](https://github.com/ult666666/motionx-studio) · [Live site](https://madebymotionx.com/) |
+| **Agentic Trading Research** | A curated public architecture snapshot: model proposals, deterministic Python gates and evidence provenance. Research-only, with no automated order execution. | [Public snapshot](https://github.com/ult666666/agentic-trading-research) · [Case study](https://ult666666.github.io/projects/trading-research.html) |
+| **ProofCast** | Local narration and accessible cover generation, SHA-256 asset provenance and opt-in Backblaze B2 integration. | [Source](https://github.com/ult666666/proofcast-backblaze) |
 
-**Also built:** [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily), a deterministic TypeScript/Devvit community puzzle; [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a tested Node.js classroom demo with server-computed totals; and [JUST-QR](https://github.com/ult666666/JUST-QR), a minimal browser QR generator.
+**Also built:** [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily), a deterministic TypeScript/Devvit puzzle; [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a Node.js classroom demo with server-computed totals; and [JUST-QR](https://github.com/ult666666/JUST-QR), a focused browser QR generator.
 
-### Review the engineering
+## Tools and approach
 
-[Valuation model, API and reference checks](https://github.com/ult666666/frontier-ai-valuation-lab/actions/workflows/ci.yml) · [Valuation review](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/AUDIT.md)
+**Languages and interfaces:** Python, TypeScript, JavaScript, SQL, HTML/CSS, React, Next.js and Tailwind CSS.
 
-[Portfolio checks and browser tests](https://github.com/ult666666/ult666666.github.io/actions/workflows/portfolio.yml) · [LineageGuard CI](https://github.com/ult666666/lineageguard-datahub-agent/actions/workflows/tests.yml) · [LineageGuard source-to-test guide](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ENGINEERING_REVIEW.md)
+**Systems and verification:** Node.js, REST APIs, JSON Schema, automated tests, GitHub Actions, Playwright, source provenance and human review boundaries.
 
-These links expose runnable checks and implementation details, not just screenshots. The LineageGuard checks use synthetic data and a local MCP mock; they do not claim a production-tenant validation.
+I aim to make a project easy to try, its claims easy to inspect, and its failure states understandable. The [portfolio checks](https://github.com/ult666666/ult666666.github.io/actions/workflows/portfolio.yml) and [LineageGuard engineering review](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ENGINEERING_REVIEW.md) provide further entry points into the implementation.
 
-### What I work with
+## Let's connect
 
-**Frontend:** TypeScript, JavaScript, React, Next.js, HTML/CSS, Tailwind CSS
+I'm interested in software engineering, AI engineering and product-focused internship opportunities. Visit the [portfolio contact section](https://ult666666.github.io/#contact) or explore the [public projects](https://github.com/ult666666?tab=repositories).
 
-**Backend & systems:** Python, Node.js, REST APIs, SQL, data validation, JSON Schema
-
-**Engineering practices:** Git/GitHub, automated tests, CI, Playwright, deterministic checks, reproducible builds, human-in-the-loop workflows
-
-**Financial modeling:** Economic FCFF valuation, scenario and sensitivity analysis, reverse DCF, source provenance, and model validation
-
-**Interests:** AI agents, fintech, developer tools, full-stack product engineering, human–computer interaction, reliability and safety.
-
-### How I approach engineering
-
-- **Make it real.** Deliver usable interfaces, runnable code and repeatable local setup steps—not just a concept slide.
-- **Make it verifiable.** Keep assertions connected to tests, source evidence and honest project limitations.
-- **Make failure visible.** Prefer explicit state transitions, provenance and safe refusal over silent or optimistic success.
-- **Design for the person using it.** Accessibility, legibility and a thoughtful interaction model matter alongside functionality.
-
-### Let's connect
-
-I'm interested in software engineering, AI engineering and product-focused internship opportunities. See the [portfolio](https://ult666666.github.io/) for selected work and engineering case studies, or reach out via the [MOTIONX public contact](mailto:hello@madebymotionx.com).
-
-<sub>These repositories include deployed applications, research systems, coursework and prototypes. Each project README identifies its own actual deployment and operational limits; none implies client, employment or investment results that are not documented.</sub>
+<sub>Projects include deployed interfaces, research snapshots, coursework and prototypes. Their READMEs explain what can be run and what remains out of scope. Company names in the valuation demo identify independent research subjects and do not imply affiliation or endorsement.</sub>
