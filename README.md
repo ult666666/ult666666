@@ -33,6 +33,10 @@ Application **3.6** adds Ownership Frontier while retaining financial engine 3.0
 
 Try the source-outage scenario, restore its synthetic source and resume the same run. Inspect which evidence was reused, compare an additive alternative, and export the exact review. No paid inference, catalog mutation or SQL execution is enabled; deterministic components are not represented as an autonomous LLM team.
 
+**Verify what leaves the workflow.** Review Inspector replays an exported review locally: evidence contracts, result-to-step agreement, deterministic conclusions and draft regeneration. It separates the recorded decision from current evidence freshness and guards JSON, Markdown and SQL exports. Files are not uploaded or restored as runnable state. Consistent is not authenticated; no execution is authorized.
+
+[Inspector method and limits](https://github.com/ult666666/lineageguard-datahub-agent/blob/6ed607b5c9ff6f46f2bb3214b04d040b04c02c52/docs/REVIEW_INSPECTOR.md) · [Semantic verifier](https://github.com/ult666666/lineageguard-datahub-agent/blob/6ed607b5c9ff6f46f2bb3214b04d040b04c02c52/public/studio/core/inspection.js) · [Negative-case tests](https://github.com/ult666666/lineageguard-datahub-agent/blob/6ed607b5c9ff6f46f2bb3214b04d040b04c02c52/test/studio/inspection.test.mjs) · [Three-minute portfolio walkthrough](https://ult666666.github.io/projects/lineageguard.html#try-workflow)
+
 [**Open Studio ↗**](https://lineageguard-datahub-agent.vercel.app/) · [Execution architecture](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ARCHITECTURE.md) · [Recovery test](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/test/studio/process-recovery.test.mjs) · [Verification and limits](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/VERIFICATION.md)
 
 ## More selected work
