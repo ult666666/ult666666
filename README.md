@@ -27,11 +27,19 @@ An independent, AI-assisted fintech research workspace. Explore how distant cash
 
 Application **3.6** adds Ownership Frontier while retaining financial engine 3.0 and the **18 October 2026 research snapshot**. Browser/API agreement establishes consistency; the independent Python implementation checks arithmetic. These checks do not establish forecast accuracy or investment returns. See the [verification record and its scope](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md).
 
+## Agent engineering: LineageGuard Studio
+
+**Compose a review. Understand every decision.** The Studio turns the original schema-change demo into an executable, typed workflow with evidence contracts, real step states, bounded retries and recovery. The hosted preview runs in the browser with synthetic tools; the separate local Node service adds durable SQLite checkpoints, revision checks and writer leases.
+
+Try the source-outage scenario, restore its synthetic source and resume the same run. Inspect which evidence was reused, compare an additive alternative, and export the exact review. No paid inference, catalog mutation or SQL execution is enabled; deterministic components are not represented as an autonomous LLM team.
+
+[**Open Studio ↗**](https://lineageguard-datahub-agent.vercel.app/) · [Execution architecture](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ARCHITECTURE.md) · [Recovery test](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/test/studio/process-recovery.test.mjs) · [Verification and limits](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/VERIFICATION.md)
+
 ## More selected work
 
 | Project | What it demonstrates | Explore |
 | --- | --- | --- |
-| **LineageGuard** | A metadata-aware schema-change review using DataHub context, downstream impact and migration guidance. | [Source](https://github.com/ult666666/lineageguard-datahub-agent) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
+| **LineageGuard Studio** | A typed workflow composer and bounded execution runtime: source-bound evidence, cancellation/recovery, a separate SQLite local service and reproducible policy evaluations. | [Studio](https://lineageguard-datahub-agent.vercel.app/) · [Source](https://github.com/ult666666/lineageguard-datahub-agent) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
 | **MOTIONX Studio** | A motion-first Next.js/TypeScript website, with a separate Python workflow for validated outreach drafts. | [Source](https://github.com/ult666666/motionx-studio) · [Live site](https://madebymotionx.com/) |
 | **Agentic Trading Research** | A curated public architecture snapshot: model proposals, deterministic Python gates and evidence provenance. Research-only, with no automated order execution. | [Public snapshot](https://github.com/ult666666/agentic-trading-research) · [Case study](https://ult666666.github.io/projects/trading-research.html) |
 | **ProofCast** | Local narration and accessible cover generation, SHA-256 asset provenance and opt-in Backblaze B2 integration. | [Source](https://github.com/ult666666/proofcast-backblaze) |
