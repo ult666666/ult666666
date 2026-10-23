@@ -20,24 +20,21 @@ Three independent, AI-assisted portfolio builds connect backend engineering and 
 
 ## Featured: Frontier AI Valuation Lab
 
-An independent, AI-assisted fintech research workspace. Explore how distant cash flows affect value, how a hypothetical equity round changes ownership, and which assumptions explain a scenario difference. Keep operating cases with their reasoning and dated evidence.
+**Capital decisions, made inspectable.** An independent, AI-assisted full-stack fintech workspace connecting an explicit capital objective to hypothetical financing plans, scenario analysis and a portable business decision. Define the tradeoff, compare alternatives, verify the complete calculation through the API, and keep the reasoning behind a choice.
 
-[**Try the workspace ↗**](https://frontier-ai-valuation-lab.vercel.app/) · [Engineering case study](https://ult666666.github.io/projects/frontier-ai-valuation-lab.html) · [Source](https://github.com/ult666666/frontier-ai-valuation-lab)
+[**Open Capital Strategy Studio ↗**](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [Engineering case study](https://ult666666.github.io/projects/frontier-ai-valuation-lab.html) · [Source](https://github.com/ult666666/frontier-ai-valuation-lab)
 
-1. **See how much future is in the value.** [Value Horizon](https://frontier-ai-valuation-lab.vercel.app/horizon.html) keeps the explicit forecast fixed and shows how the valuation changes when later terminal cash flows and residual value are removed.
-2. **Explore an ownership constraint.** [Ownership Frontier](https://frontier-ai-valuation-lab.vercel.app/index.html#ownership-example), inside Financing Lens, connects a hypothetical primary round to dilution and the minimum stake retention you enter. Pre-money pricing, post-money pricing and operating enterprise value remain distinct.
-3. **Explain and preserve an operating case.** Move exact comparisons through Thesis Lab and the Model, then save the operating case and rationale to the Research Casebook. Casebook notes stay in the browser unless exported; financing links and exports retain their separate scope.
-
-### Review the implementation
+1. **Define and compare.** Enter a capital objective and a starting-stake retention floor. Inspect eligible plans, exact pricing and the equivalent accessible table. A funding shortfall, an ownership constraint and an invalid input have different meanings.
+2. **Challenge the assumptions.** Compare the same plans across explicit operating scenarios. Inspect dominance, finite-scenario regret and switching values. Scenario counts are not probabilities; the comparison rule does not choose for the analyst.
+3. **Record the judgment.** Name a preferred plan, its tradeoff, missing information and a review trigger. Keep an exact share link, recalculated JSON record or standalone brief. Late API responses cannot verify newer inputs.
 
 | Engineering question | Where to look |
 | --- | --- |
-| How is the calculation checked? | A [shared browser/Node engine](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/public/lib/model.js), [real HTTP tests](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/api.test.js) and [separate Python parity checks](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/reference_parity.py). |
-| Can research survive edits and failed saves? | The [journey module](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/public/lib/journey.js) preserves exact comparisons; [storage tests](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/casebook-store.test.js) exercise corrupt data, blocked storage and quota failures. |
-| How are financing and dilution kept separate from operations? | The [Financing Lens method](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/FINANCING_LENS.md) explains the hypothetical equity bridge, round pricing, ownership retention and numeric limits. |
-| What is reported evidence versus an assumption? | The [contextual evidence method](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/EVIDENCE_CONTEXT.md) keeps source dates, definitions and modeling limits visible. |
+| How is the capital arithmetic checked? | A [pure calculation engine](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/public/lib/capital-strategy.js), [separate Python reference](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/scripts/check_capital_reference.py) and [boundary tests](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/capital-strategy.test.js). |
+| Can the entire decision cross the browser/API boundary? | The [API contract](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/API.md), [real HTTP checks](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/capital-api.test.js) and [browser workflow](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/capital-browser.mjs). |
+| What is a calculation versus a business judgment? | The [capital method and limits](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/CAPITAL_STRATEGY.md) and [reproducible decision walkthrough](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/DEMO_WALKTHROUGH.md). |
 
-Application **3.6** adds Ownership Frontier while retaining financial engine 3.0 and the **18 October 2026 research snapshot**. Browser/API agreement establishes consistency; the independent Python implementation checks arithmetic. These checks do not establish forecast accuracy or investment returns. See the [verification record and its scope](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md).
+Application **4.0.0** retains financial engine **3.0.0** and the **18 October 2026 research snapshot**. Financing quotes and capital objectives are hypothetical inputs. Browser/API agreement establishes consistency, and the separate reference checks arithmetic; neither establishes forecast accuracy or investment returns. The earlier Model, Thesis Lab, Value Horizon and Research Casebook remain supporting workspaces. See the [verification record and its scope](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md).
 
 ## Agent engineering: LineageGuard Studio
 
