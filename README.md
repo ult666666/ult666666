@@ -6,6 +6,18 @@ I'm a **Carnegie Mellon University student** building full-stack products and AI
 
 [**Portfolio & case studies ↗**](https://ult666666.github.io/) · [Fintech portfolio](https://ult666666.github.io/fintech.html) · [Public repositories](https://github.com/ult666666?tab=repositories) · [MOTIONX](https://madebymotionx.com/)
 
+## Engineering lab: reliability, evaluation and useful reporting
+
+Three independent, AI-assisted portfolio builds connect backend engineering and applied AI with clear operational reporting. Each includes synthetic examples, automated boundary tests, architecture notes, a reproducible quickstart and a Chinese handoff guide.
+
+| Project | Problem it explores | Start the review |
+| --- | --- | --- |
+| **[RelayBox](https://github.com/ult666666/relaybox)** | Signed webhook ingestion, idempotent delivery IDs, transactional SQLite leases, stale-worker fencing and bounded retries. | [Architecture](https://github.com/ult666666/relaybox/blob/main/docs/ARCHITECTURE.md) · [Verification](https://github.com/ult666666/relaybox/blob/main/docs/VERIFICATION.md) |
+| **[TraceBench](https://github.com/ult666666/tracebench)** | Reproducible offline evaluation of recorded AI outputs, bilingual cases, explicit token pricing and baseline regression gates. | [Method and architecture](https://github.com/ult666666/tracebench/blob/main/docs/ARCHITECTURE.md) · [Verification](https://github.com/ult666666/tracebench/blob/main/docs/VERIFICATION.md) |
+| **[Impact Ledger](https://github.com/ult666666/impact-ledger)** | A TypeScript/Python reporting dashboard that separates unique people, attendance and session spending, with atomic CSV validation. | [Synthetic demo](https://ult666666.github.io/impact-ledger/) · [Verification](https://github.com/ult666666/impact-ledger/blob/main/docs/VERIFICATION.md) |
+
+[**Explore the engineering lab ↗**](https://ult666666.github.io/projects/engineering-lab.html). The hosted reporting preview uses a synthetic snapshot; persistent imports run through the local API. These educational projects have explicit deployment limits and make no claims of production use or customer adoption.
+
 ## Featured: Frontier AI Valuation Lab
 
 An independent, AI-assisted fintech research workspace. Explore how distant cash flows affect value, how a hypothetical equity round changes ownership, and which assumptions explain a scenario difference. Keep operating cases with their reasoning and dated evidence.
