@@ -6,6 +6,8 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 
 [**Portfolio & case studies ↗**](https://ult666666.github.io/) · [Recent builds](https://ult666666.github.io/#recent-builds) · [Fintech work](https://ult666666.github.io/fintech.html) · [Engineering lab](https://ult666666.github.io/projects/engineering-lab.html) · [MOTIONX studio](https://madebymotionx.com/)
 
+**Explore by specialty:** [Fintech](https://ult666666.github.io/#frontier-ai-valuation-lab) · [AI engineering](https://ult666666.github.io/#lineageguard) · [Data analytics](https://ult666666.github.io/#saas-analytics-warehouse) · [Product / accessibility](https://ult666666.github.io/#contrastkit)
+
 ## Start here — selected engineering work
 
 | Project | What to inspect | Demo and evidence |
