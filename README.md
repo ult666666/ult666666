@@ -38,6 +38,7 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 | --- | --- | --- |
 | [RelayBox](https://github.com/ult666666/relaybox) | Signed webhook inbox: idempotent ingestion, durable SQLite jobs, fenced worker leases and bounded retries | Python · SQLite |
 | [TraceBench](https://github.com/ult666666/tracebench) | Offline evaluation of recorded AI outputs: strict JSONL contracts, bilingual cases, exact token-cost arithmetic and baseline regression gates | Python |
+| [citecheck](https://github.com/ult666666/citecheck) | Question answering over documents with the Claude API: every sentence must cite a retrieved passage, a checker flags unsupported claims, and an evaluation harness scores retrieval, citations and abstention | Python · Claude API · SQLite FTS5 |
 | [searchlite](https://github.com/ult666666/searchlite) | Search engine built from scratch: BM25F ranking, query parser, phrase and fuzzy search, hybrid retrieval and nDCG evaluation · [live demo](https://ult666666.github.io/searchlite/) | TypeScript |
 | [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Typed agent-workflow runtime with evidence contracts, recovery and policy evaluations | Node.js · SQLite |
 | [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Local media generation with SHA-256 provenance and opt-in Backblaze B2 storage | Python · Streamlit |
@@ -56,6 +57,7 @@ Also built: [JUST-QR](https://github.com/ult666666/JUST-QR), a minimal browser Q
 
 - **Languages:** Python, TypeScript/JavaScript, SQL, HTML/CSS
 - **Backend and data:** FastAPI, Node.js, SQLAlchemy, PostgreSQL, SQLite, DuckDB, dbt, pandas, NumPy, SciPy
+- **AI engineering:** Claude API (strict tool use, prompt caching, refusal handling), retrieval and offline evaluation
 - **Frontend:** React, Next.js, Vite, Tailwind CSS
 - **Quality:** pytest, Hypothesis, Vitest, Playwright, mypy, ESLint, GitHub Actions
 
