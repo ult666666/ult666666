@@ -1,6 +1,6 @@
 # Charles Dai
 
-**Carnegie Mellon University** · Business Administration, planned additional major in Human-Computer Interaction · Class of 2029
+**Carnegie Mellon University** · Human-Computer Interaction · Class of 2029
 
 I build software for finance, data and AI products in Python, TypeScript and SQL. I want my work's claims to be easy to check: results are tested against an independent reference, and each README states what the project does not do.
 
