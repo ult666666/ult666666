@@ -1,18 +1,23 @@
 # Charles Dai
 
-**Carnegie Mellon University** · Human-Computer Interaction · Class of 2029
+**Carnegie Mellon University** · Class of 2029 · Software, AI and HCI interests
 
 I build software for finance, data and AI products in Python, TypeScript and SQL. I want my work's claims to be easy to check: results are tested against an independent reference, and each README states what the project does not do.
 
-[**Portfolio & case studies ↗**](https://ult666666.github.io/) · [Fintech work](https://ult666666.github.io/fintech.html) · [Engineering lab](https://ult666666.github.io/projects/engineering-lab.html) · [MOTIONX studio](https://madebymotionx.com/)
+[**Portfolio & case studies ↗**](https://ult666666.github.io/) · [Recent builds](https://ult666666.github.io/#recent-builds) · [Fintech work](https://ult666666.github.io/fintech.html) · [Engineering lab](https://ult666666.github.io/projects/engineering-lab.html) · [MOTIONX studio](https://madebymotionx.com/)
 
-## Featured
+## Start here — selected engineering work
 
-**[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)**: capital decisions, made inspectable. A full-stack fintech workspace that connects a capital objective to hypothetical financing plans, scenario analysis and a recorded business decision. A pure calculation engine is checked against a separate Python reference, and the complete decision is verified across the browser/API boundary.<br>
-[Open Capital Strategy Studio ↗](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [Case study](https://ult666666.github.io/projects/frontier-ai-valuation-lab.html) · [Verification and limits](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md)
+| Project | What to inspect | Demo and evidence |
+| --- | --- | --- |
+| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | Illustrative capital decisions, ownership scenarios and a separately checked Python calculation reference. | [Interactive studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [Verification](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
+| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Compose typed review workflows, trace evidence and inspect reproducible decisions. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Engineering review](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ENGINEERING_REVIEW.md) |
+| **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data analytics | Synthetic SaaS metrics through dbt, DuckDB, reconciled MRR, cohorts and data-quality tests. | [Report preview](https://ult666666.github.io/saas-analytics-warehouse/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
+| **[Impact Ledger](https://github.com/ult666666/impact-ledger)** · data products | Accessible nonprofit participation and spending dashboard with a local SQLite API and atomic imports. | [Synthetic preview](https://ult666666.github.io/impact-ledger/) · [Verification](https://github.com/ult666666/impact-ledger/blob/main/docs/VERIFICATION.md) |
+| **[ContrastKit](https://github.com/ult666666/contrastkit)** · HCI | WCAG 2.2 color checks, OKLCH palette fixes and color-vision simulation in a web app, library and CLI. | [Try the app](https://ult666666.github.io/contrastkit/) · [Source and tests](https://github.com/ult666666/contrastkit) |
+| **[MOTIONX Studio](https://github.com/ult666666/motionx-studio)** · product engineering | Motion-first Next.js site plus a separately guarded Python outreach-validation workflow. | [Live site](https://madebymotionx.com/) · [Source and architecture](https://github.com/ult666666/motionx-studio) |
 
-**[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)**: a typed workflow composer and bounded execution runtime for reviewing schema changes. It has evidence contracts, cancellation and recovery, SQLite checkpoints, and reproducible evaluations.<br>
-[Open Studio ↗](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) · [Verification and limits](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/VERIFICATION.md)
+**Just built:** [Explore six more engineering builds, demos and code ↗](https://ult666666.github.io/#recent-builds). Hosted previews use synthetic data where relevant; the repositories explain their limits.
 
 ## Projects by area
 
