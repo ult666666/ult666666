@@ -21,6 +21,8 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 
 **Just built:** [Explore six more engineering builds, demos and code ↗](https://ult666666.github.io/#recent-builds). Hosted previews use synthetic data where relevant; the repositories explain their limits.
 
+**New reproducible research demo:** [Run six synthetic gate scenarios](https://github.com/ult666666/agentic-trading-research/tree/main/examples) and inspect the offline tests. The result is research-review-only, not trading advice or a live bot.
+
 ## Projects by area
 
 **Finance and fintech**
@@ -29,7 +31,7 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 | --- | --- | --- |
 | [quantkit](https://github.com/ult666666/quantkit) | Options pricing (Black–Scholes–Merton, binomial, Monte Carlo), portfolio optimization and a backtester whose no-look-ahead rule is enforced by tests | Python · NumPy · SciPy · pandas |
 | [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API: balanced, immutable journal entries, idempotent writes and race-free overdraft checks | FastAPI · SQLAlchemy · PostgreSQL |
-| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Research-only architecture: model proposals pass through deterministic Python gates; no automated order execution · [case study](https://ult666666.github.io/projects/trading-research.html) | Python · JSON Schema |
+| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Research-only architecture plus a [runnable synthetic fail-closed gate](https://github.com/ult666666/agentic-trading-research/tree/main/examples) with negative tests; no automated order execution · [case study](https://ult666666.github.io/projects/trading-research.html) | Python · JSON Schema |
 
 **Data and analytics**
 
