@@ -1,78 +1,66 @@
 # Charles Dai
 
-**Software developer · Fintech research tools · AI systems**
+**Carnegie Mellon University** · Business Administration, planned additional major in Human-Computer Interaction · Class of 2029
 
-I'm a **Carnegie Mellon University student** building full-stack products and AI-assisted workflows. I care about clear interfaces, deterministic logic and evidence that a reviewer can inspect.
+I build software for finance, data and AI products in Python, TypeScript and SQL. I want my work's claims to be easy to check: results are tested against an independent reference, and each README states what the project does not do.
 
-[**Portfolio & case studies ↗**](https://ult666666.github.io/) · [Fintech portfolio](https://ult666666.github.io/fintech.html) · [Public repositories](https://github.com/ult666666?tab=repositories) · [MOTIONX](https://madebymotionx.com/)
+[**Portfolio & case studies ↗**](https://ult666666.github.io/) · [Fintech work](https://ult666666.github.io/fintech.html) · [Engineering lab](https://ult666666.github.io/projects/engineering-lab.html) · [MOTIONX studio](https://madebymotionx.com/)
 
-## Engineering lab: reliability, evaluation and useful reporting
+## Featured
 
-Three independent, AI-assisted portfolio builds connect backend engineering and applied AI with clear operational reporting. Each includes synthetic examples, automated boundary tests, architecture notes, a reproducible quickstart and a Chinese handoff guide.
+**[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)**: capital decisions, made inspectable. A full-stack fintech workspace that connects a capital objective to hypothetical financing plans, scenario analysis and a recorded business decision. A pure calculation engine is checked against a separate Python reference, and the complete decision is verified across the browser/API boundary.<br>
+[Open Capital Strategy Studio ↗](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [Case study](https://ult666666.github.io/projects/frontier-ai-valuation-lab.html) · [Verification and limits](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md)
 
-| Project | Problem it explores | Start the review |
+**[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)**: a typed workflow composer and bounded execution runtime for reviewing schema changes. It has evidence contracts, cancellation and recovery, SQLite checkpoints, and reproducible evaluations.<br>
+[Open Studio ↗](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) · [Verification and limits](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/VERIFICATION.md)
+
+## Projects by area
+
+**Finance and fintech**
+
+| Project | What it does | Stack |
 | --- | --- | --- |
-| **[RelayBox](https://github.com/ult666666/relaybox)** | Signed webhook ingestion, idempotent delivery IDs, transactional SQLite leases, stale-worker fencing and bounded retries. | [Architecture](https://github.com/ult666666/relaybox/blob/main/docs/ARCHITECTURE.md) · [Verification](https://github.com/ult666666/relaybox/blob/main/docs/VERIFICATION.md) |
-| **[TraceBench](https://github.com/ult666666/tracebench)** | Reproducible offline evaluation of recorded AI outputs, bilingual cases, explicit token pricing and baseline regression gates. | [Method and architecture](https://github.com/ult666666/tracebench/blob/main/docs/ARCHITECTURE.md) · [Verification](https://github.com/ult666666/tracebench/blob/main/docs/VERIFICATION.md) |
-| **[Impact Ledger](https://github.com/ult666666/impact-ledger)** | A TypeScript/Python reporting dashboard that separates unique people, attendance and session spending, with atomic CSV validation. | [Synthetic demo](https://ult666666.github.io/impact-ledger/) · [Verification](https://github.com/ult666666/impact-ledger/blob/main/docs/VERIFICATION.md) |
+| [quantkit](https://github.com/ult666666/quantkit) | Options pricing (Black–Scholes–Merton, binomial, Monte Carlo), portfolio optimization and a backtester whose no-look-ahead rule is enforced by tests | Python · NumPy · SciPy · pandas |
+| [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API: balanced, immutable journal entries, idempotent writes and race-free overdraft checks | FastAPI · SQLAlchemy · PostgreSQL |
+| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Research-only architecture: model proposals pass through deterministic Python gates; no automated order execution · [case study](https://ult666666.github.io/projects/trading-research.html) | Python · JSON Schema |
 
-[**Explore the engineering lab ↗**](https://ult666666.github.io/projects/engineering-lab.html). The hosted reporting preview uses a synthetic snapshot; persistent imports run through the local API. These educational projects have explicit deployment limits and make no claims of production use or customer adoption.
+**Data and analytics**
 
-## Featured: Frontier AI Valuation Lab
-
-**Capital decisions, made inspectable.** An independent, AI-assisted full-stack fintech workspace connecting an explicit capital objective to hypothetical financing plans, scenario analysis and a portable business decision. Define the tradeoff, compare alternatives, verify the complete calculation through the API, and keep the reasoning behind a choice.
-
-[**Open Capital Strategy Studio ↗**](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [Engineering case study](https://ult666666.github.io/projects/frontier-ai-valuation-lab.html) · [Source](https://github.com/ult666666/frontier-ai-valuation-lab)
-
-1. **Define and compare.** Enter a capital objective and a starting-stake retention floor. Inspect eligible plans, exact pricing and the equivalent accessible table. A funding shortfall, an ownership constraint and an invalid input have different meanings.
-2. **Challenge the assumptions.** Compare the same plans across explicit operating scenarios. Inspect dominance, finite-scenario regret and switching values. Scenario counts are not probabilities; the comparison rule does not choose for the analyst.
-3. **Record the judgment.** Name a preferred plan, its tradeoff, missing information and a review trigger. Keep an exact share link, recalculated JSON record or standalone brief. Late API responses cannot verify newer inputs.
-
-| Engineering question | Where to look |
-| --- | --- |
-| How is the capital arithmetic checked? | A [pure calculation engine](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/public/lib/capital-strategy.js), [separate Python reference](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/scripts/check_capital_reference.py) and [boundary tests](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/capital-strategy.test.js). |
-| Can the entire decision cross the browser/API boundary? | The [API contract](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/API.md), [real HTTP checks](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/capital-api.test.js) and [browser workflow](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/tests/capital-browser.mjs). |
-| What is a calculation versus a business judgment? | The [capital method and limits](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/CAPITAL_STRATEGY.md) and [reproducible decision walkthrough](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/DEMO_WALKTHROUGH.md). |
-
-Application **4.0.0** retains financial engine **3.0.0** and the **18 October 2026 research snapshot**. Financing quotes and capital objectives are hypothetical inputs. Browser/API agreement establishes consistency, and the separate reference checks arithmetic; neither establishes forecast accuracy or investment returns. The earlier Model, Thesis Lab, Value Horizon and Research Casebook remain supporting workspaces. See the [verification record and its scope](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md).
-
-## Agent engineering: LineageGuard Studio
-
-**Compose a review. Understand every decision.** The Studio turns the original schema-change demo into an executable, typed workflow with evidence contracts, real step states, bounded retries and recovery. The hosted preview runs in the browser with synthetic tools; the separate local Node service adds durable SQLite checkpoints, revision checks and writer leases.
-
-Try the source-outage scenario, restore its synthetic source and resume the same run. Inspect which evidence was reused, compare an additive alternative, and export the exact review. No paid inference, catalog mutation or SQL execution is enabled; deterministic components are not represented as an autonomous LLM team.
-
-**Verify what leaves the workflow.** Review Inspector replays an exported review locally: evidence contracts, result-to-step agreement, deterministic conclusions and draft regeneration. It separates the recorded decision from current evidence freshness and guards JSON, Markdown and SQL exports. Files are not uploaded or restored as runnable state. Consistent is not authenticated; no execution is authorized.
-
-[Inspector method and limits](https://github.com/ult666666/lineageguard-datahub-agent/blob/6ed607b5c9ff6f46f2bb3214b04d040b04c02c52/docs/REVIEW_INSPECTOR.md) · [Semantic verifier](https://github.com/ult666666/lineageguard-datahub-agent/blob/6ed607b5c9ff6f46f2bb3214b04d040b04c02c52/public/studio/core/inspection.js) · [Negative-case tests](https://github.com/ult666666/lineageguard-datahub-agent/blob/6ed607b5c9ff6f46f2bb3214b04d040b04c02c52/test/studio/inspection.test.mjs) · [Three-minute portfolio walkthrough](https://ult666666.github.io/projects/lineageguard.html#try-workflow)
-
-[**Open Studio ↗**](https://lineageguard-datahub-agent.vercel.app/) · [Execution architecture](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ARCHITECTURE.md) · [Recovery test](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/test/studio/process-recovery.test.mjs) · [Verification and limits](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/VERIFICATION.md)
-
-## More selected work
-
-| Project | What it demonstrates | Explore |
+| Project | What it does | Stack |
 | --- | --- | --- |
-| **LineageGuard Studio** | A typed workflow composer and bounded execution runtime: source-bound evidence, cancellation/recovery, a separate SQLite local service and reproducible policy evaluations. | [Studio](https://lineageguard-datahub-agent.vercel.app/) · [Source](https://github.com/ult666666/lineageguard-datahub-agent) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
-| **MOTIONX Studio** | A motion-first Next.js/TypeScript website, with a separate Python workflow for validated outreach drafts. | [Source](https://github.com/ult666666/motionx-studio) · [Live site](https://madebymotionx.com/) |
-| **Agentic Trading Research** | A curated public architecture snapshot: model proposals, deterministic Python gates and evidence provenance. Research-only, with no automated order execution. | [Public snapshot](https://github.com/ult666666/agentic-trading-research) · [Case study](https://ult666666.github.io/projects/trading-research.html) |
-| **ProofCast** | Local narration and accessible cover generation, SHA-256 asset provenance and opt-in Backblaze B2 integration. | [Source](https://github.com/ult666666/proofcast-backblaze) |
+| [saas-analytics-warehouse](https://github.com/ult666666/saas-analytics-warehouse) | Tested dbt warehouse for a fictional SaaS company: MRR movements, cohort retention and unit economics | dbt · DuckDB · SQL · Python |
+| [powerlift](https://github.com/ult666666/powerlift) | A/B-test statistics: power analysis, CUPED, sequential monitoring and Bayesian analysis, checked against SciPy and statsmodels | Python · SciPy |
+| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Reporting dashboard that separates unique people, attendance and session spending, with atomic CSV validation · [synthetic demo](https://ult666666.github.io/impact-ledger/) | TypeScript · Python · SQLite |
 
-**Also built:** [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily), a deterministic TypeScript/Devvit puzzle; [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a Node.js classroom demo with server-computed totals; and [JUST-QR](https://github.com/ult666666/JUST-QR), a focused browser QR generator.
+**Backend reliability and AI engineering**
 
-## Tools and approach
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [RelayBox](https://github.com/ult666666/relaybox) | Signed webhook inbox: idempotent ingestion, durable SQLite jobs, fenced worker leases and bounded retries | Python · SQLite |
+| [TraceBench](https://github.com/ult666666/tracebench) | Offline evaluation of recorded AI outputs: strict JSONL contracts, bilingual cases, exact token-cost arithmetic and baseline regression gates | Python |
+| [searchlite](https://github.com/ult666666/searchlite) | Search engine built from scratch: BM25F ranking, query parser, phrase and fuzzy search, hybrid retrieval and nDCG evaluation · [live demo](https://ult666666.github.io/searchlite/) | TypeScript |
+| [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Typed agent-workflow runtime with evidence contracts, recovery and policy evaluations | Node.js · SQLite |
+| [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Local media generation with SHA-256 provenance and opt-in Backblaze B2 storage | Python · Streamlit |
 
-**Languages and interfaces:** Python, TypeScript, JavaScript, SQL, HTML/CSS, React, Next.js and Tailwind CSS.
+**Product, design and HCI**
 
-**Systems and verification:** Node.js, REST APIs, JSON Schema, automated tests, GitHub Actions, Playwright, source provenance and human review boundaries.
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [contrastkit](https://github.com/ult666666/contrastkit) | WCAG contrast checks, perceptual color fixes and color-blindness simulation, as a library, a CI-ready CLI and a [web app](https://ult666666.github.io/contrastkit/) | TypeScript · React |
+| [MOTIONX Studio](https://github.com/ult666666/motionx-studio) | Motion-first studio website with a separate Python outreach-validation workflow | Next.js · TypeScript · Python |
+| [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | One-minute Reddit puzzle game about the blast radius of schema changes | TypeScript · Devvit |
 
-I aim to make a project easy to try, its claims easy to inspect, and its failure states understandable. The [portfolio checks](https://github.com/ult666666/ult666666.github.io/actions/workflows/portfolio.yml) and [LineageGuard engineering review](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/ENGINEERING_REVIEW.md) provide further entry points into the implementation.
+Also built: [JUST-QR](https://github.com/ult666666/JUST-QR), a minimal browser QR generator, and [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a Node.js classroom demo.
 
-## Shipping the work responsibly
+## Toolkit
 
-The portfolio itself has an [inspectable publication boundary](https://github.com/ult666666/ult666666.github.io/blob/main/docs/PUBLICATION_BOUNDARY.md): an exact public-file inventory, negative-case tests for accidental disclosure, and a byte-checked static release. The [engineering evidence routes](https://ult666666.github.io/#engineering-proof) connect the visible demos to methods, code and tests—not unsupported usage or performance claims.
+- **Languages:** Python, TypeScript/JavaScript, SQL, HTML/CSS
+- **Backend and data:** FastAPI, Node.js, SQLAlchemy, PostgreSQL, SQLite, DuckDB, dbt, pandas, NumPy, SciPy
+- **Frontend:** React, Next.js, Vite, Tailwind CSS
+- **Quality:** pytest, Hypothesis, Vitest, Playwright, mypy, ESLint, GitHub Actions
 
-## Let's connect
+## Get in touch
 
-I'm interested in software engineering, AI engineering and product-focused internship opportunities. Visit the [portfolio contact section](https://ult666666.github.io/#contact) or explore the [public projects](https://github.com/ult666666?tab=repositories).
+I'm looking for software engineering, AI engineering, fintech and data internships. Reach me through the [portfolio contact section](https://ult666666.github.io/#contact).
 
-<sub>Projects include deployed interfaces, research snapshots, coursework and prototypes. Their READMEs explain what can be run and what remains out of scope. Company names in the valuation demo identify independent research subjects and do not imply affiliation or endorsement.</sub>
+<sub>Projects include deployed apps, libraries, research snapshots, coursework and prototypes, built with AI assistance. Each README explains what can be run and what is out of scope; hosted demos use synthetic data, and none claims production use or customer adoption. Company names in the valuation demo identify independent research subjects and do not imply affiliation or endorsement.</sub>
