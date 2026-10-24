@@ -1,6 +1,6 @@
 # Charles Dai
 
-**Carnegie Mellon University** · Class of 2029 · Software, AI and HCI interests
+**Carnegie Mellon University** · Software, AI and HCI interests
 
 I build software for finance, data and AI products in Python, TypeScript and SQL. I want my work's claims to be easy to check: results are tested against an independent reference, and each README states what the project does not do.
 
