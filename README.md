@@ -57,6 +57,7 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 | [contrastkit](https://github.com/ult666666/contrastkit) | WCAG contrast checks, perceptual color fixes and color-blindness simulation, as a library, a CI-ready CLI and a [web app](https://ult666666.github.io/contrastkit/) | TypeScript · React |
 | [MOTIONX Studio](https://github.com/ult666666/motionx-studio) | Motion-first studio website with a separate Python outreach-validation workflow | Next.js · TypeScript · Python |
 | [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | One-minute Reddit puzzle game about the blast radius of schema changes | TypeScript · Devvit |
+| [Luma Keys](https://github.com/ult666666/luma-keys) | Offline piano practice desktop app: numbered score, sheet music and falling notes, 3-D hands that play a planned fingering, graded sight reading and on-device PDF recognition · [portfolio card](https://ult666666.github.io/#luma-keys) | Electron · React · three.js · Web Audio |
 
 Also built: [JUST-QR](https://github.com/ult666666/JUST-QR), a minimal browser QR generator, and [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a Node.js classroom demo.
 
@@ -65,7 +66,7 @@ Also built: [JUST-QR](https://github.com/ult666666/JUST-QR), a minimal browser Q
 - **Languages:** Python, TypeScript/JavaScript, SQL, HTML/CSS
 - **Backend and data:** FastAPI, Node.js, SQLAlchemy, PostgreSQL, SQLite, DuckDB, dbt, pandas, NumPy, SciPy
 - **AI engineering:** Claude API (strict tool use, prompt caching, refusal handling), retrieval and offline evaluation
-- **Frontend:** React, Next.js, Vite, Tailwind CSS
+- **Frontend:** React, Next.js, Vite, Tailwind CSS, Electron, three.js, Web Audio
 - **Quality:** pytest, Hypothesis, Vitest, Playwright, mypy, ESLint, GitHub Actions
 
 ## Get in touch
