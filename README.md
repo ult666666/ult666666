@@ -6,7 +6,7 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 
 [**Portfolio & case studies ↗**](https://ult666666.github.io/) · [**Project explorer ↗**](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Engineering lab](https://ult666666.github.io/projects/engineering-lab.html) · [MOTIONX studio](https://madebymotionx.com/)
 
-**Explore by specialty:** [Fintech](https://ult666666.github.io/#frontier-ai-valuation-lab) · [AI engineering](https://ult666666.github.io/#lineageguard) · [Data analytics](https://ult666666.github.io/#saas-analytics-warehouse) · [Product / accessibility](https://ult666666.github.io/#contrastkit)
+**Explore by specialty:** [Fintech](https://ult666666.github.io/#frontier-ai-valuation-lab) · [AI engineering](https://ult666666.github.io/#lineageguard) · [Data analytics](https://ult666666.github.io/projects/catalog.html#saas-analytics-warehouse) · [Product / accessibility](https://ult666666.github.io/projects/catalog.html#contrastkit)
 
 ## Selected projects
 
@@ -24,6 +24,7 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 - **[Operations handoff](https://ult666666.github.io/projects/engineering-lab.html#operations-handoff):** signed event → durable processing → validated import → reporting checks, using installed packages and synthetic records.
 - **[Reference-checked foundations](https://ult666666.github.io/projects/foundations.html):** inspect pricing, statistics, ledger invariants, retrieval and contrast calculations alongside their proving code.
 - **[Research review gate](https://github.com/ult666666/agentic-trading-research/tree/main/examples):** run six synthetic scenarios and inspect why incomplete evidence blocks a research result.
+- **[Compare saved reviews](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/REVIEW_COMPARISON.md):** validate both exported packages before comparing recorded decisions, with current evidence freshness shown separately; internal consistency is not authenticated approval.
 
 [Browse all 19 projects by scenario, technology and area →](https://ult666666.github.io/projects/catalog.html)
 
@@ -65,8 +66,8 @@ I build software for finance, data and AI products in Python, TypeScript and SQL
 | --- | --- | --- |
 | [contrastkit](https://github.com/ult666666/contrastkit) | WCAG contrast checks, perceptual color fixes and color-blindness simulation, as a library, a CI-ready CLI and a [web app](https://ult666666.github.io/contrastkit/) | TypeScript · React |
 | [MOTIONX Studio](https://github.com/ult666666/motionx-studio) | Motion-first studio website with a separate Python outreach-validation workflow | Next.js · TypeScript · Python |
-| [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | One-minute Reddit puzzle game about the blast radius of schema changes | TypeScript · Devvit |
-| [Luma Keys](https://github.com/ult666666/luma-keys) | Offline piano practice desktop app: numbered score, sheet music and falling notes, 3-D hands that play a planned fingering, graded sight reading and on-device PDF recognition · [portfolio card](https://ult666666.github.io/#luma-keys) | Electron · React · three.js · Web Audio |
+| [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | One-minute Reddit puzzle game about the blast radius of schema changes · [play the offline incident](https://ult666666.github.io/projects/blast-radius-demo.html), with fictional tab-memory scores and votes | TypeScript · Devvit |
+| [Luma Keys](https://github.com/ult666666/luma-keys) | Offline piano practice desktop app: numbered score, sheet music and falling notes, 3-D hands that play a planned fingering, graded sight reading and on-device PDF recognition · [portfolio card](https://ult666666.github.io/#luma-keys) · [isolated browser QA workflow](https://github.com/ult666666/luma-keys/blob/main/docs/BROWSER_QA.md) | Electron · React · three.js · Web Audio |
 
 Also built: [JUST-QR](https://github.com/ult666666/JUST-QR), a browser QR generator with input recovery and scanner-checked PNG exports, and [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a Node.js classroom demo.
 
