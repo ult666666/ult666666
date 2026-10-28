@@ -1,89 +1,88 @@
 # Charles Dai
 
-**Carnegie Mellon University** · Software, AI and HCI
+**Carnegie Mellon University** · Business, with a second major in Human-Computer Interaction (in progress)
 
-I build software for finance, data and AI products in Python, TypeScript and SQL. I focus on clear interfaces, reliable data flows and inspectable results. My work connects product engineering with finance, analytics and applied AI; the projects link their demos to implementation, checks and explicit scope.
+I build software where the numbers have to be right: matching engines and ledgers, data pipelines, and AI tools whose output gets checked. I work mostly in Python, TypeScript, SQL and Rust, and I'm looking for software engineering, AI engineering, fintech and data internships.
 
-[**Portfolio & case studies ↗**](https://ult666666.github.io/) · [**Project explorer ↗**](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Engineering lab](https://ult666666.github.io/projects/engineering-lab.html) · [MOTIONX studio](https://madebymotionx.com/)
-
-**Explore by specialty:** [Fintech](https://ult666666.github.io/#frontier-ai-valuation-lab) · [AI engineering](https://ult666666.github.io/#lineageguard) · [Data analytics](https://ult666666.github.io/projects/catalog.html#saas-analytics-warehouse) · [Product / accessibility](https://ult666666.github.io/projects/catalog.html#contrastkit)
+[**Portfolio**](https://ult666666.github.io/) · [**Project explorer**](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Email](mailto:hello@madebymotionx.com)
 
 ## Selected projects
 
-| Project | What to inspect | Demo and evidence |
+| Project | What it is | Try it |
 | --- | --- | --- |
-| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | Illustrative capital decisions, ownership scenarios and a separately checked Python calculation reference. | [Interactive studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [Verification](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
-| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Compose typed workflows, trace evidence and compare two saved reviews locally. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Saved-review comparison](https://github.com/ult666666/lineageguard-datahub-agent/blob/main/docs/REVIEW_COMPARISON.md) |
-| **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data analytics | Synthetic SaaS metrics through dbt, DuckDB, reconciled MRR, cohorts and data-quality tests. | [Report preview](https://ult666666.github.io/saas-analytics-warehouse/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
-| **[Impact Ledger](https://github.com/ult666666/impact-ledger)** · data products | Accessible nonprofit participation and spending dashboard with a local SQLite API and atomic imports. | [Synthetic preview](https://ult666666.github.io/impact-ledger/) · [Verification](https://github.com/ult666666/impact-ledger/blob/main/docs/VERIFICATION.md) |
-| **[ContrastKit](https://github.com/ult666666/contrastkit)** · HCI | WCAG 2.2 color checks, OKLCH palette fixes and color-vision simulation in a web app, library and CLI. | [Try the app](https://ult666666.github.io/contrastkit/) · [Source and tests](https://github.com/ult666666/contrastkit) |
-| **[MOTIONX Studio](https://github.com/ult666666/motionx-studio)** · product engineering | Motion-first Next.js site plus a separately guarded Python outreach-validation workflow. | [Live site](https://madebymotionx.com/) · [Source and architecture](https://github.com/ult666666/motionx-studio) |
+| **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine with price-time priority, IOC, FOK, post-only and self-trade prevention. A second, deliberately simple engine checks every event, and results match bit for bit on Linux, macOS, Windows and in the browser. | [Playground](https://ult666666.github.io/crossbook/) · [Design](https://github.com/ult666666/crossbook/blob/main/docs/DESIGN.md) |
+| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | A valuation and financing studio for illustrative frontier-AI-lab scenarios, with a separate Python check of the arithmetic. | [Live studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [How the math is checked](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
+| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard, and keeps the evidence behind each verdict. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
+| **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data | Revenue and retention metrics for a fictional SaaS company, modeled and tested in dbt and DuckDB. | [Report](https://ult666666.github.io/saas-analytics-warehouse/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
+| **[ledgerline](https://github.com/ult666666/ledgerline)** · backend | A double-entry ledger API. Every entry has to balance, and a retried request can't post twice. | [Design notes](https://github.com/ult666666/ledgerline/blob/main/docs/DESIGN.md) |
+| **[Luma Keys](https://github.com/ult666666/luma-keys)** · product | A piano practice app for macOS with sheet music, falling notes and two 3-D hands that play the planned fingering. | [Overview](https://ult666666.github.io/#luma-keys) · [Hand motion design](https://github.com/ult666666/luma-keys/blob/main/docs/HAND_MOTION_DESIGN.md) |
 
-## Follow a complete workflow
+## How I work
 
-- **[Operations handoff](https://ult666666.github.io/projects/engineering-lab.html#operations-handoff):** signed event → durable processing → validated import → reporting checks, using installed packages and synthetic records.
-- **[Reference-checked foundations](https://ult666666.github.io/projects/foundations.html):** inspect pricing, statistics, ledger invariants, retrieval and contrast calculations alongside their proving code.
-- **[Research review gate](https://github.com/ult666666/agentic-trading-research/tree/main/examples):** run six synthetic scenarios and inspect why incomplete evidence blocks a research result.
-- **[Compare saved reviews](https://ult666666.github.io/projects/lineageguard.html#saved-comparison):** choose two exports in Studio’s Compare tab; both are checked locally before differences appear. Recorded decisions and current freshness remain separate, and comparison preserves existing run state. Internal consistency is not authenticated approval.
-- **[Investigate a retrieval change](https://ult666666.github.io/projects/foundations.html#section-5):** follow exact-ranking paired measurements, including slower controls, then inspect the extreme-vector repair against an independent numerical reference.
-
-[Browse all 19 projects by scenario, technology and area →](https://ult666666.github.io/projects/catalog.html)
+- **Checked against answers I didn't write.** quantkit reproduces textbook option prices, powerlift matches published sequential-testing tables, and crossbook runs every command through two independent engines.
+- **Runnable in minutes.** Each README starts with what the project does and the few commands that show it working.
+- **Honest scope.** Hosted demos run on synthetic data, and each README says what the project does not do. I build with AI coding assistants, then review, test and document the results.
 
 <details>
-<summary><strong>Complete project index — finance, data, AI, backend and HCI</strong></summary>
+<summary><strong>All 20 projects by area</strong></summary>
 
-## Projects by area
+**Finance**
 
-**Finance and fintech**
-
-| Project | What it does | Stack |
+| Project | What it is | Stack |
 | --- | --- | --- |
-| [quantkit](https://github.com/ult666666/quantkit) | Options pricing (Black–Scholes–Merton, binomial, Monte Carlo), portfolio optimization and a backtester whose no-look-ahead rule is enforced by tests | Python · NumPy · SciPy · pandas |
-| [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API: balanced, immutable journal entries, idempotent writes and race-free overdraft checks | FastAPI · SQLAlchemy · PostgreSQL |
-| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Research-only architecture plus a [runnable synthetic fail-closed gate](https://github.com/ult666666/agentic-trading-research/tree/main/examples) with negative tests; no automated order execution · [case study](https://ult666666.github.io/projects/trading-research.html) | Python · JSON Schema |
+| [crossbook](https://github.com/ult666666/crossbook) | Deterministic order-matching engine with a WebAssembly playground | Rust, WebAssembly |
+| [Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab) | Valuation and financing studio for frontier AI labs | JavaScript, Node.js, Python |
+| [quantkit](https://github.com/ult666666/quantkit) | Option pricing, portfolio optimization and a backtester that can't peek at tomorrow's prices | Python, NumPy, SciPy |
+| [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API with idempotent writes and race-free overdraft checks | FastAPI, PostgreSQL |
+| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas and plain Python checks decide which survive; no order execution | Python |
 
-**Data and analytics**
+**Data**
 
-| Project | What it does | Stack |
+| Project | What it is | Stack |
 | --- | --- | --- |
-| [saas-analytics-warehouse](https://github.com/ult666666/saas-analytics-warehouse) | Tested dbt warehouse for a fictional SaaS company: MRR movements, cohort retention and unit economics | dbt · DuckDB · SQL · Python |
-| [powerlift](https://github.com/ult666666/powerlift) | A/B-test statistics plus a seeded CSV → allocation check → CUPED readout, with power, sequential and Bayesian methods checked against SciPy and statsmodels | Python · SciPy |
-| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Reporting dashboard that separates unique people, attendance and session spending, with atomic CSV validation · [synthetic demo](https://ult666666.github.io/impact-ledger/) | TypeScript · Python · SQLite |
+| [SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse) | MRR, cohort retention and unit economics for a fictional SaaS company | dbt, DuckDB, SQL |
+| [powerlift](https://github.com/ult666666/powerlift) | A/B test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
+| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit that never count the same person twice | TypeScript, Python, SQLite |
 
-**Backend reliability and AI engineering**
+**AI and backend**
 
-| Project | What it does | Stack |
+| Project | What it is | Stack |
 | --- | --- | --- |
-| [RelayBox](https://github.com/ult666666/relaybox) | Signed webhook inbox: idempotent ingestion, durable SQLite jobs, fenced worker leases and bounded retries | Python · SQLite |
-| [TraceBench](https://github.com/ult666666/tracebench) | Offline evaluation of recorded AI outputs: strict JSONL contracts, bilingual cases, exact token-cost arithmetic and baseline regression gates | Python |
-| [citecheck](https://github.com/ult666666/citecheck) | Question answering over documents with the Claude API: every sentence must cite a retrieved passage, a checker flags unsupported claims, and an evaluation harness scores retrieval, citations and abstention | Python · Claude API · SQLite FTS5 |
-| [searchlite](https://github.com/ult666666/searchlite) | BM25F and hybrid retrieval with explainable ranking · [relevance workbench](https://ult666666.github.io/searchlite/relevance.html) · [exact-ranking measurements](https://github.com/ult666666/searchlite/blob/main/docs/EXECUTION.md) · [vector reference checks](https://github.com/ult666666/searchlite/blob/main/docs/VECTOR_NUMERICS.md) | TypeScript |
-| [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Typed agent-workflow runtime with evidence contracts, recovery and policy evaluations | Node.js · SQLite |
-| [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Local media generation, independent saved-file verification, SHA-256 provenance and opt-in Backblaze B2 storage | Python · Streamlit |
+| [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Reviews database schema changes and keeps the evidence behind each verdict | Node.js, SQLite |
+| [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags any sentence its sources don't support | Python, Claude API, SQLite |
+| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs and does the token-cost arithmetic exactly | Python |
+| [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that won't process the same delivery twice | Python, SQLite |
+| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains why each result ranked where it did | TypeScript |
+| [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Makes narration and cover art locally and fingerprints every file with SHA-256 | Python, Streamlit |
 
-**Product, design and HCI**
+**Product and design**
 
-| Project | What it does | Stack |
+| Project | What it is | Stack |
 | --- | --- | --- |
-| [contrastkit](https://github.com/ult666666/contrastkit) | WCAG contrast checks, perceptual color fixes and color-blindness simulation, as a library, a CI-ready CLI and a [web app](https://ult666666.github.io/contrastkit/) | TypeScript · React |
-| [MOTIONX Studio](https://github.com/ult666666/motionx-studio) | Motion-first studio website with a separate Python outreach-validation workflow | Next.js · TypeScript · Python |
-| [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | One-minute Reddit puzzle game about the blast radius of schema changes · [play the offline incident](https://ult666666.github.io/projects/blast-radius-demo.html), with fictional tab-memory scores and votes | TypeScript · Devvit |
-| [Luma Keys](https://github.com/ult666666/luma-keys) | Offline piano practice desktop app: numbered score, sheet music and falling notes, 3-D hands that play a planned fingering, graded sight reading and on-device PDF recognition · [portfolio card](https://ult666666.github.io/#luma-keys) · [isolated browser QA workflow](https://github.com/ult666666/luma-keys/blob/main/docs/BROWSER_QA.md) | Electron · React · three.js · Web Audio |
+| [Luma Keys](https://github.com/ult666666/luma-keys) | Offline piano practice app with sheet music, falling notes and 3-D hands | Electron, React, three.js |
+| [MOTIONX Studio](https://github.com/ult666666/motionx-studio) | The website for my motion-design studio, [madebymotionx.com](https://madebymotionx.com/) | Next.js, TypeScript |
+| [ContrastKit](https://github.com/ult666666/contrastkit) | Checks color contrast and finds the nearest passing color without changing the hue | TypeScript, React |
+| [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | A one-minute Reddit puzzle about stopping a bad schema change from spreading | TypeScript, Devvit |
 
-Also built: [JUST-QR](https://github.com/ult666666/JUST-QR), a browser QR generator with input recovery and scanner-checked PNG exports, and [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3), a Node.js classroom demo.
+**Small tools and coursework**
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [JUST-QR](https://github.com/ult666666/JUST-QR) | A QR code generator with input recovery and scanner-checked PNG export | JavaScript |
+| [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3) | A classroom budgeting demo with fictional data | Node.js |
 
 </details>
 
 ## Toolkit
 
-- **Languages:** Python, TypeScript/JavaScript, SQL, HTML/CSS
-- **Backend and data:** FastAPI, Node.js, SQLAlchemy, PostgreSQL, SQLite, DuckDB, dbt, pandas, NumPy, SciPy
-- **AI engineering:** Claude API (strict tool use, prompt caching, refusal handling), retrieval and offline evaluation
-- **Frontend:** React, Next.js, Vite, Tailwind CSS, Electron, three.js, Web Audio
-- **Quality:** pytest, Hypothesis, Vitest, Playwright, mypy, ESLint, GitHub Actions
+- **Languages:** Python, TypeScript and JavaScript, SQL, Rust, HTML and CSS
+- **Backend and data:** FastAPI, Node.js, PostgreSQL, SQLite, DuckDB, dbt, pandas, NumPy, SciPy
+- **AI engineering:** Claude API (tool use, prompt caching, refusal handling), retrieval, offline evaluation
+- **Frontend:** React, Next.js, Vite, Tailwind CSS, Electron, three.js, WebAssembly
+- **Quality:** pytest, Hypothesis, proptest, Vitest, Playwright, mypy, Clippy, GitHub Actions
 
-## Get in touch
+## Contact
 
-I'm looking for software engineering, AI engineering, fintech and data internships. Reach me through the [portfolio contact section](https://ult666666.github.io/#contact).
+Email [hello@madebymotionx.com](mailto:hello@madebymotionx.com), or start from the [portfolio](https://ult666666.github.io/#contact).
 
-<sub>Projects include deployed apps, libraries, research snapshots, coursework and prototypes, built with AI assistance. Each README explains what can be run and what is out of scope; hosted demos use synthetic data, and none claims production use or customer adoption. Company names in the valuation demo identify independent research subjects and do not imply affiliation or endorsement.</sub>
+<sub>Projects include libraries, deployed demos, research snapshots and coursework, built with AI assistance. Hosted demos use synthetic data, and none claims production use or customers. Company names in the valuation demo identify research subjects and imply no affiliation or endorsement.</sub>
