@@ -1,6 +1,6 @@
 # Charles Dai
 
-**Carnegie Mellon University** · Business, with a second major in Human-Computer Interaction (in progress)
+**Carnegie Mellon University** · Human Computer Interaction
 
 I build software where the numbers have to be right: matching engines and ledgers, data pipelines, and AI tools whose output gets checked. I work mostly in Python, TypeScript, SQL and Rust, and I'm looking for software engineering, AI engineering, fintech and data internships.
 
