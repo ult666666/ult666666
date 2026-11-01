@@ -4,7 +4,7 @@
 
 I build software where the numbers have to be right: matching engines and ledgers, data pipelines, and AI tools whose output gets checked. I work mostly in Python, TypeScript, SQL and Rust, and I'm looking for software engineering, AI engineering, fintech and data internships.
 
-[**Portfolio**](https://ult666666.github.io/) · [**Project explorer**](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Email](mailto:hello@madebymotionx.com)
+[Portfolio](https://ult666666.github.io/) · [Project explorer](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Agent skills](https://github.com/ult666666/agent-skills) · [Email](mailto:hello@madebymotionx.com)
 
 ## Featured: Agent Skills
 
@@ -15,7 +15,7 @@ I build software where the numbers have to be right: matching engines and ledger
 - **Data and LLM evaluation:** CSV import validator, A/B test stats, SaaS metrics auditor, schema-change review, LLM regression evals, search relevance scoring, citation verification
 - **Finance and docs:** ledger integrity checker, cap-table dilution modeler, release notes from commits, dependency license auditor
 
-Also available as ready-to-install packages on [**Agensi**](https://agensi.io), the SKILL.md marketplace. The open-source versions are identical.
+Also available as ready-to-install packages on [Agensi](https://agensi.io), the SKILL.md marketplace. The open-source versions are identical.
 
 ## Selected projects
 
@@ -37,13 +37,13 @@ Also available as ready-to-install packages on [**Agensi**](https://agensi.io), 
 <details>
 <summary><strong>All 21 projects by area</strong></summary>
 
-**Agent skills and developer tooling**
+#### Agent skills and developer tooling
 
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [agent-skills](https://github.com/ult666666/agent-skills) | 20 tested, offline SKILL.md agent skills for security scanning, API and migration checks, data audits and LLM evals; also on [Agensi](https://agensi.io) | Python (stdlib), GitHub Actions |
 
-**Finance**
+#### Finance
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -53,7 +53,7 @@ Also available as ready-to-install packages on [**Agensi**](https://agensi.io), 
 | [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API with idempotent writes and race-free overdraft checks | FastAPI, PostgreSQL |
 | [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas and plain Python checks decide which survive; no order execution | Python |
 
-**Data**
+#### Data
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -61,7 +61,7 @@ Also available as ready-to-install packages on [**Agensi**](https://agensi.io), 
 | [powerlift](https://github.com/ult666666/powerlift) | A/B test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
 | [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit that never count the same person twice | TypeScript, Python, SQLite |
 
-**AI and backend**
+#### AI and backend
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -72,7 +72,7 @@ Also available as ready-to-install packages on [**Agensi**](https://agensi.io), 
 | [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains why each result ranked where it did | TypeScript |
 | [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Makes narration and cover art locally and fingerprints every file with SHA-256 | Python, Streamlit |
 
-**Product and design**
+#### Product and design
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ Also available as ready-to-install packages on [**Agensi**](https://agensi.io), 
 | [ContrastKit](https://github.com/ult666666/contrastkit) | Checks color contrast and finds the nearest passing color without changing the hue | TypeScript, React |
 | [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | A one-minute Reddit puzzle about stopping a bad schema change from spreading | TypeScript, Devvit |
 
-**Small tools and coursework**
+#### Small tools and coursework
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -100,6 +100,6 @@ Also available as ready-to-install packages on [**Agensi**](https://agensi.io), 
 
 ## Contact
 
-Email [hello@madebymotionx.com](mailto:hello@madebymotionx.com), or start from the [portfolio](https://ult666666.github.io/#contact).
+Email [hello@madebymotionx.com](mailto:hello@madebymotionx.com) or start from the [portfolio](https://ult666666.github.io/#contact).
 
 <sub>Projects include libraries, deployed demos, research snapshots and coursework, built with AI assistance. Hosted demos use synthetic data, and none claims production use or customers. Company names in the valuation demo identify research subjects and imply no affiliation or endorsement.</sub>
