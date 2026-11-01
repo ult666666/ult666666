@@ -2,7 +2,7 @@
 
 **Carnegie Mellon University** · Human-Computer Interaction
 
-I'm a Human-Computer Interaction student at CMU. Most of what I build is software where a wrong number is a real bug: order-matching engines, ledgers, data pipelines, and tools that check AI output. I mostly write Python, TypeScript, SQL and Rust. I'm looking for internships in software engineering, AI engineering, fintech and data.
+I'm a Human-Computer Interaction student at CMU. Most of what I build is focus on order-matching engines, ledgers, data pipelines, and tools that check AI output. I mostly write Python, JavaScript, C++, TypeScript, SQL and Rust. I'm always looking for challenges in software engineering, Agentic AI engineering, Fintech, and data science.
 
 [Portfolio](https://ult666666.github.io/) · [Project explorer](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Agent skills](https://github.com/ult666666/agent-skills) · [Email](mailto:hello@madebymotionx.com)
 
