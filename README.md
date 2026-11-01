@@ -87,7 +87,7 @@ Each README opens with what the project does and the few commands to run it. Hos
 
 ## Toolkit
 
-- Languages: Python, TypeScript, JavaScript, SQL, Rust, HTML and CSS
+- Languages: Python, TypeScript, C++, JavaScript, SQL, Rust, HTML and CSS
 - Backend and data: FastAPI, Node.js, PostgreSQL, SQLite, DuckDB, dbt, pandas, NumPy, SciPy
 - AI: Claude API (tool use, prompt caching, refusals), retrieval, offline evals
 - Frontend: React, Next.js, Vite, Tailwind CSS, Electron, three.js, WebAssembly
