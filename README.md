@@ -4,18 +4,13 @@
 
 I'm a Human-Computer Interaction student at CMU. Most of what I build is focus on order-matching engines, ledgers, data pipelines, and tools that check AI output. I mostly write Python, JavaScript, C++, TypeScript, SQL and Rust. I'm always looking for challenges in software engineering, Agentic AI engineering, Fintech, and data science.
 
-[Portfolio](https://ult666666.github.io/) · [Project explorer](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Agent skills](https://github.com/ult666666/agent-skills) · [Email](mailto:hello@madebymotionx.com)
+[Portfolio](https://ult666666.github.io/) · [Project explorer](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Agent skills on Agensi](https://agensi.io) · [Email](mailto:hello@madebymotionx.com)
 
 ## Featured: Agent Skills
 
-**[agent-skills](https://github.com/ult666666/agent-skills)** is a set of 20 skills in the `SKILL.md` format, for Claude Code, Codex and other coding agents. Each one is a short workflow plus a Python script that uses only the standard library and runs offline. CI runs a passing, a failing and a bad-input case for every skill on each push.
+I also write agent skills: 20 skills in the `SKILL.md` format for Claude Code, Codex and other coding agents. Each is a short workflow plus a small offline script, so the agent works from numbers that come out the same every run. They cover security checks, API and database migration review, data and finance audits, and LLM evals.
 
-- Security: secrets-leak scanner, prompt-injection scanner, file provenance manifests
-- DevOps and APIs: GitHub Actions auditor, Dockerfile linter, OpenAPI breaking-change detector, SQL migration checker
-- Data and LLM evals: CSV import validator, A/B test stats, SaaS metrics auditor, schema-change review, LLM regression evals, search relevance scoring, citation checks
-- Finance and docs: ledger integrity checker, cap-table dilution modeler, release notes from commits, dependency license auditor
-
-Packaged versions are also on [Agensi](https://agensi.io), a SKILL.md marketplace. The code is the same as the open-source repo.
+The skills are sold on [Agensi](https://agensi.io), a SKILL.md marketplace.
 
 ## Selected projects
 
@@ -41,7 +36,7 @@ Each README opens with what the project does and the few commands to run it. Hos
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [agent-skills](https://github.com/ult666666/agent-skills) | 20 offline SKILL.md agent skills: security scans, API and migration checks, data audits, LLM evals. Also on [Agensi](https://agensi.io) | Python (stdlib), GitHub Actions |
+| Agent skills (on [Agensi](https://agensi.io)) | 20 offline SKILL.md agent skills: security scans, API and migration checks, data audits, LLM evals | Python |
 
 #### Finance
 
