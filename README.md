@@ -6,6 +6,17 @@ I build software where the numbers have to be right: matching engines and ledger
 
 [**Portfolio**](https://ult666666.github.io/) · [**Project explorer**](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Email](mailto:hello@madebymotionx.com)
 
+## Featured: Agent Skills
+
+**[agent-skills](https://github.com/ult666666/agent-skills)** · 20 tested skills in the open `SKILL.md` format for Claude Code, Codex and other coding agents. Each one pairs a step-by-step workflow with a deterministic, offline, standard-library-only Python script, and CI runs pass, fail and bad-input cases for every skill on each push.
+
+- **Security:** secrets-leak scanner, prompt-injection scanner, file provenance manifests
+- **DevOps and APIs:** GitHub Actions security auditor, Dockerfile linter, OpenAPI breaking-change detector, SQL migration safety checker
+- **Data and LLM evaluation:** CSV import validator, A/B test stats, SaaS metrics auditor, schema-change review, LLM regression evals, search relevance scoring, citation verification
+- **Finance and docs:** ledger integrity checker, cap-table dilution modeler, release notes from commits, dependency license auditor
+
+Also available as ready-to-install packages on [**Agensi**](https://agensi.io), the SKILL.md marketplace. The open-source versions are identical.
+
 ## Selected projects
 
 | Project | What it is | Try it |
@@ -24,7 +35,13 @@ I build software where the numbers have to be right: matching engines and ledger
 - **Honest scope.** Hosted demos run on synthetic data, and each README says what the project does not do. I build with AI coding assistants, then review, test and document the results.
 
 <details>
-<summary><strong>All 20 projects by area</strong></summary>
+<summary><strong>All 21 projects by area</strong></summary>
+
+**Agent skills and developer tooling**
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [agent-skills](https://github.com/ult666666/agent-skills) | 20 tested, offline SKILL.md agent skills for security scanning, API and migration checks, data audits and LLM evals; also on [Agensi](https://agensi.io) | Python (stdlib), GitHub Actions |
 
 **Finance**
 
