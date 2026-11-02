@@ -2,13 +2,13 @@
 
 **Carnegie Mellon University** · Human-Computer Interaction
 
-I'm a Human-Computer Interaction student at CMU. Most of what I build is focus on order-matching engines, ledgers, data pipelines, and tools that check AI output. I mostly write Python, JavaScript, C++, TypeScript, SQL and Rust. I'm always looking for challenges in software engineering, Agentic AI engineering, Fintech, and data science.
+I'm a Human-Computer Interaction student at CMU. Most of what I build focuses on order-matching engines, ledgers, data pipelines and tools that check AI output. I mostly write Python, JavaScript, C++, TypeScript, SQL and Rust. I'm always looking for challenges in software engineering, agentic AI engineering, fintech and data science.
 
 [Portfolio](https://ult666666.github.io/) · [Project explorer](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Agent skills on Agensi](https://agensi.io) · [Email](mailto:hello@madebymotionx.com)
 
-## Featured: Agent Skills
+## Featured: agent skills
 
-I also write agent skills: 20 skills in the `SKILL.md` format for Claude Code, Codex and other coding agents. Each is a short workflow plus a small offline script, so the agent works from numbers that come out the same every run. They cover security checks, API and database migration review, data and finance audits, and LLM evals.
+I also write agent skills: 20 skills in the `SKILL.md` format for Claude Code, Codex and other coding agents. Each is a short workflow plus a small offline script, so the agent works from numbers that come out the same on every run. They cover security checks, API and database migration review, data and finance audits, and LLM evals.
 
 The skills are sold on [Agensi](https://agensi.io), a SKILL.md marketplace.
 
@@ -16,9 +16,9 @@ The skills are sold on [Agensi](https://agensi.io), a SKILL.md marketplace.
 
 | Project | What it is | Try it |
 | --- | --- | --- |
-| **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine in Rust with opening and closing call auctions, crash recovery, a market-data feed and a multi-instrument runner. A second, deliberately simple engine checks every event, and results are identical across platforms, in the browser and at any thread count. | [Playground](https://ult666666.github.io/crossbook/) · [Case study](https://ult666666.github.io/projects/crossbook.html) |
-| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | A valuation and financing tool for made-up frontier AI lab scenarios, with seeded Monte Carlo value ranges. A separate Python script re-checks the arithmetic. | [Live studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [How the math is checked](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
-| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard, with lineage from DataHub or a dbt manifest, and keeps the evidence for each verdict. A 105-case labelled benchmark in CI stops its decisions from getting more lenient. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
+| **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine with opening and closing call auctions, crash recovery and a market-data feed. A second, simpler engine checks every event, and the output is the same on every platform, in the browser and on any number of threads. | [Playground](https://ult666666.github.io/crossbook/) · [Case study](https://ult666666.github.io/projects/crossbook.html) |
+| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | A valuation and financing tool for illustrative frontier AI lab scenarios, with seeded Monte Carlo value ranges. Separate Python scripts recheck the arithmetic. | [Live studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [How the math is checked](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
+| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard, using lineage from DataHub or a dbt manifest. A 105-case labelled benchmark in CI keeps its decisions from getting more lenient. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
 | **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data | Revenue and retention metrics for a fictional SaaS company, built and tested in dbt and DuckDB, with incremental loads checked against a full refresh. | [Report](https://ult666666.github.io/saas-analytics-warehouse/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
 | **[ledgerline](https://github.com/ult666666/ledgerline)** · backend | A double-entry ledger API with holds (two-phase transfers). Every entry must balance, and a retried request can't post twice. | [API walkthrough](https://github.com/ult666666/ledgerline/blob/main/docs/API_WALKTHROUGH.md) · [Design notes](https://github.com/ult666666/ledgerline/blob/main/docs/DESIGN.md) |
 | **[Luma Keys](https://github.com/ult666666/luma-keys)** · product | A piano practice app for macOS with sheet music, falling notes and two 3-D hands that show the fingering. | [Overview](https://ult666666.github.io/#luma-keys) · [Hand motion design](https://github.com/ult666666/luma-keys/blob/main/docs/HAND_MOTION_DESIGN.md) |
@@ -36,7 +36,7 @@ Each README opens with what the project does and the few commands to run it. Hos
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| Agent skills (on [Agensi](https://agensi.io)) | 20 offline SKILL.md agent skills: security scans, API and migration checks, data audits, LLM evals | Python |
+| Agent skills (on [Agensi](https://agensi.io)) | 20 offline SKILL.md skills for security scans, API and migration checks, data audits and LLM evals | Python |
 
 #### Finance
 
@@ -46,7 +46,7 @@ Each README opens with what the project does and the few commands to run it. Hos
 | [Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab) | Valuation and financing tool for frontier AI labs, with Monte Carlo value ranges | JavaScript, Node.js, Python |
 | [quantkit](https://github.com/ult666666/quantkit) | Option pricing, portfolio optimization, VaR backtests and a backtester that can't see future prices | Python, NumPy, SciPy |
 | [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API with idempotent writes, holds and race-free overdraft checks | FastAPI, PostgreSQL |
-| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas, and plain Python checks and backtest-overfitting tests decide which survive. No order execution | Python |
+| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas, and plain Python checks and backtest-overfitting tests decide which survive. It cannot place orders | Python |
 
 #### Data
 
@@ -54,7 +54,7 @@ Each README opens with what the project does and the few commands to run it. Hos
 | --- | --- | --- |
 | [SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse) | MRR, cohort retention and unit economics for a fictional SaaS company, with incremental loads and SCD2 history | dbt, DuckDB, SQL |
 | [powerlift](https://github.com/ult666666/powerlift) | A/B and A/B/n test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
-| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit, without counting anyone twice, with a hash-chained audit log | TypeScript, Python, SQLite |
+| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit that never count anyone twice, with a hash-chained audit log | TypeScript, Python, SQLite |
 
 #### AI and backend
 
@@ -62,9 +62,9 @@ Each README opens with what the project does and the few commands to run it. Hos
 | --- | --- | --- |
 | [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Reviews database schema changes, with lineage from DataHub or a dbt manifest, and keeps the evidence behind each verdict | Node.js, SQLite |
 | [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags any claim its sources don't support | Python, Claude API, SQLite |
-| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs with statistical gates that ignore noise, and does the token-cost arithmetic exactly | Python |
-| [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that processes each delivery once, and a signed sender with retries and replay | Python, SQLite |
-| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking and skips work at query time without changing the results | TypeScript |
+| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs and tells them from noise with statistical gates | Python |
+| [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that drops duplicate deliveries, and a signed sender with retries and replay | Python, SQLite |
+| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking and skips work without changing the results | TypeScript |
 | [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Generates narration and cover art locally, hashes every file, signs the manifest and logs it in a Merkle transparency log | Python, Streamlit |
 
 #### Product and design
@@ -97,4 +97,4 @@ Each README opens with what the project does and the few commands to run it. Hos
 
 Email [hello@madebymotionx.com](mailto:hello@madebymotionx.com) or start from the [portfolio](https://ult666666.github.io/#contact).
 
-<sub>These are libraries, deployed demos, research snapshots and coursework, built with AI assistance. Hosted demos use synthetic data and none is in production use. Company names in the valuation demo are research subjects, with no affiliation or endorsement implied.</sub>
+<sub>None of these projects is in production use. Company names in the valuation demo are research subjects, with no affiliation or endorsement implied.</sub>
