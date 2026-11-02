@@ -16,11 +16,11 @@ The skills are sold on [Agensi](https://agensi.io), a SKILL.md marketplace.
 
 | Project | What it is | Try it |
 | --- | --- | --- |
-| **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine in Rust with crash recovery, a market-data feed and a multi-instrument runner. A second, deliberately simple engine checks every event, and results are identical across platforms, in the browser and at any thread count. | [Playground](https://ult666666.github.io/crossbook/) · [Case study](https://ult666666.github.io/projects/crossbook.html) |
-| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | A valuation and financing tool for made-up frontier AI lab scenarios. A separate Python script re-checks the arithmetic. | [Live studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [How the math is checked](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
-| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard and keeps the evidence for each verdict. An 89-case labelled benchmark in CI stops its decisions from getting more lenient. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
-| **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data | Revenue and retention metrics for a fictional SaaS company, built and tested in dbt and DuckDB. | [Report](https://ult666666.github.io/saas-analytics-warehouse/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
-| **[ledgerline](https://github.com/ult666666/ledgerline)** · backend | A double-entry ledger API. Every entry must balance, and a retried request can't post twice. | [API walkthrough](https://github.com/ult666666/ledgerline/blob/main/docs/API_WALKTHROUGH.md) · [Design notes](https://github.com/ult666666/ledgerline/blob/main/docs/DESIGN.md) |
+| **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine in Rust with opening and closing call auctions, crash recovery, a market-data feed and a multi-instrument runner. A second, deliberately simple engine checks every event, and results are identical across platforms, in the browser and at any thread count. | [Playground](https://ult666666.github.io/crossbook/) · [Case study](https://ult666666.github.io/projects/crossbook.html) |
+| **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | A valuation and financing tool for made-up frontier AI lab scenarios, with seeded Monte Carlo value ranges. A separate Python script re-checks the arithmetic. | [Live studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [How the math is checked](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
+| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard, with lineage from DataHub or a dbt manifest, and keeps the evidence for each verdict. A 105-case labelled benchmark in CI stops its decisions from getting more lenient. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
+| **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data | Revenue and retention metrics for a fictional SaaS company, built and tested in dbt and DuckDB, with incremental loads checked against a full refresh. | [Report](https://ult666666.github.io/saas-analytics-warehouse/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
+| **[ledgerline](https://github.com/ult666666/ledgerline)** · backend | A double-entry ledger API with holds (two-phase transfers). Every entry must balance, and a retried request can't post twice. | [API walkthrough](https://github.com/ult666666/ledgerline/blob/main/docs/API_WALKTHROUGH.md) · [Design notes](https://github.com/ult666666/ledgerline/blob/main/docs/DESIGN.md) |
 | **[Luma Keys](https://github.com/ult666666/luma-keys)** · product | A piano practice app for macOS with sheet music, falling notes and two 3-D hands that show the fingering. | [Overview](https://ult666666.github.io/#luma-keys) · [Hand motion design](https://github.com/ult666666/luma-keys/blob/main/docs/HAND_MOTION_DESIGN.md) |
 
 ## How I work
@@ -42,30 +42,30 @@ Each README opens with what the project does and the few commands to run it. Hos
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [crossbook](https://github.com/ult666666/crossbook) | Order-matching engine with a WebAssembly playground | Rust, WebAssembly |
-| [Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab) | Valuation and financing tool for frontier AI labs | JavaScript, Node.js, Python |
-| [quantkit](https://github.com/ult666666/quantkit) | Option pricing, portfolio optimization and a backtester that can't see future prices | Python, NumPy, SciPy |
-| [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API with idempotent writes and race-free overdraft checks | FastAPI, PostgreSQL |
-| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas and plain Python checks decide which survive. No order execution | Python |
+| [crossbook](https://github.com/ult666666/crossbook) | Order-matching engine with call auctions and a WebAssembly playground | Rust, WebAssembly |
+| [Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab) | Valuation and financing tool for frontier AI labs, with Monte Carlo value ranges | JavaScript, Node.js, Python |
+| [quantkit](https://github.com/ult666666/quantkit) | Option pricing, portfolio optimization, VaR backtests and a backtester that can't see future prices | Python, NumPy, SciPy |
+| [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API with idempotent writes, holds and race-free overdraft checks | FastAPI, PostgreSQL |
+| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas; plain Python checks and backtest-overfitting tests decide which survive. No order execution | Python |
 
 #### Data
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse) | MRR, cohort retention and unit economics for a fictional SaaS company | dbt, DuckDB, SQL |
-| [powerlift](https://github.com/ult666666/powerlift) | A/B test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
-| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit, without counting anyone twice | TypeScript, Python, SQLite |
+| [SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse) | MRR, cohort retention and unit economics for a fictional SaaS company, with incremental loads and SCD2 history | dbt, DuckDB, SQL |
+| [powerlift](https://github.com/ult666666/powerlift) | A/B and A/B/n test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
+| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit, without counting anyone twice, with a hash-chained audit log | TypeScript, Python, SQLite |
 
 #### AI and backend
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Reviews database schema changes and keeps the evidence behind each verdict | Node.js, SQLite |
-| [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags any sentence its sources don't support | Python, Claude API, SQLite |
-| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs and does the token-cost arithmetic exactly | Python |
-| [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that processes each delivery once | Python, SQLite |
-| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking | TypeScript |
-| [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Generates narration and cover art locally and records a SHA-256 hash of every file | Python, Streamlit |
+| [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Reviews database schema changes, with lineage from DataHub or a dbt manifest, and keeps the evidence behind each verdict | Node.js, SQLite |
+| [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags any claim its sources don't support | Python, Claude API, SQLite |
+| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs with exact statistical gates and does the token-cost arithmetic exactly | Python |
+| [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that processes each delivery once, and a signed sender with retries and replay | Python, SQLite |
+| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking and prunes top-k search without changing it | TypeScript |
+| [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Generates narration and cover art locally, hashes every file, signs the manifest and logs it in a Merkle transparency log | Python, Streamlit |
 
 #### Product and design
 
@@ -73,14 +73,14 @@ Each README opens with what the project does and the few commands to run it. Hos
 | --- | --- | --- |
 | [Luma Keys](https://github.com/ult666666/luma-keys) | Piano practice app with sheet music, falling notes and 3-D hands | Electron, React, three.js |
 | [MOTIONX Studio](https://github.com/ult666666/motionx-studio) | The website for my motion-design studio, [madebymotionx.com](https://madebymotionx.com/) | Next.js, TypeScript |
-| [ContrastKit](https://github.com/ult666666/contrastkit) | Checks color contrast and finds the nearest passing color with the same hue | TypeScript, React |
-| [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | A one-minute Reddit puzzle about containing a bad schema change | TypeScript, Devvit |
+| [ContrastKit](https://github.com/ult666666/contrastkit) | Checks color contrast, finds the nearest passing color with the same hue and simulates color vision deficiency at any severity | TypeScript, React |
+| [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | A one-minute Reddit puzzle about containing a bad schema change, playable by keyboard | TypeScript, Devvit |
 
 #### Small tools and coursework
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [JUST-QR](https://github.com/ult666666/JUST-QR) | A QR code generator with PNG export, tested against a scanner | JavaScript |
+| [JUST-QR](https://github.com/ult666666/JUST-QR) | A QR code generator with its own ISO/IEC 18004 encoder and PNG export, tested against a scanner | JavaScript |
 | [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3) | A classroom budgeting demo with fictional data | Node.js |
 
 </details>
