@@ -46,7 +46,7 @@ Each README opens with what the project does and the few commands to run it. Hos
 | [Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab) | Valuation and financing tool for frontier AI labs, with Monte Carlo value ranges | JavaScript, Node.js, Python |
 | [quantkit](https://github.com/ult666666/quantkit) | Option pricing, portfolio optimization, VaR backtests and a backtester that can't see future prices | Python, NumPy, SciPy |
 | [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API with idempotent writes, holds and race-free overdraft checks | FastAPI, PostgreSQL |
-| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas; plain Python checks and backtest-overfitting tests decide which survive. No order execution | Python |
+| [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas, and plain Python checks and backtest-overfitting tests decide which survive. No order execution | Python |
 
 #### Data
 
@@ -62,9 +62,9 @@ Each README opens with what the project does and the few commands to run it. Hos
 | --- | --- | --- |
 | [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Reviews database schema changes, with lineage from DataHub or a dbt manifest, and keeps the evidence behind each verdict | Node.js, SQLite |
 | [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags any claim its sources don't support | Python, Claude API, SQLite |
-| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs with exact statistical gates and does the token-cost arithmetic exactly | Python |
+| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs with statistical gates that ignore noise, and does the token-cost arithmetic exactly | Python |
 | [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that processes each delivery once, and a signed sender with retries and replay | Python, SQLite |
-| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking and prunes top-k search without changing it | TypeScript |
+| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking and skips work at query time without changing the results | TypeScript |
 | [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Generates narration and cover art locally, hashes every file, signs the manifest and logs it in a Merkle transparency log | Python, Streamlit |
 
 #### Product and design
