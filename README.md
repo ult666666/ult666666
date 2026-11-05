@@ -42,29 +42,29 @@ Each README opens with what the project does and the few commands to run it. Hos
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [crossbook](https://github.com/ult666666/crossbook) | Order-matching engine with call auctions and a WebAssembly playground | Rust, WebAssembly |
+| [crossbook](https://github.com/ult666666/crossbook) · [v0.3.1](https://github.com/ult666666/crossbook/releases/tag/v0.3.1) | Order-matching engine with call auctions and a WebAssembly playground | Rust, WebAssembly |
 | [Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab) | Valuation and financing tool for frontier AI labs, with Monte Carlo value ranges | JavaScript, Node.js, Python |
-| [quantkit](https://github.com/ult666666/quantkit) | Option pricing, portfolio optimization, VaR backtests and a backtester that can't see future prices | Python, NumPy, SciPy |
-| [ledgerline](https://github.com/ult666666/ledgerline) | Double-entry ledger API with idempotent writes, holds and race-free overdraft checks | FastAPI, PostgreSQL |
+| [quantkit](https://github.com/ult666666/quantkit) · [v0.2.0](https://github.com/ult666666/quantkit/releases/tag/v0.2.0) | Option pricing, portfolio optimization, VaR backtests and a backtester that can't see future prices | Python, NumPy, SciPy |
+| [ledgerline](https://github.com/ult666666/ledgerline) · [v0.2.0](https://github.com/ult666666/ledgerline/releases/tag/v0.2.0) | Double-entry ledger API with idempotent writes, holds and race-free overdraft checks | FastAPI, PostgreSQL |
 | [Agentic Trading Research](https://github.com/ult666666/agentic-trading-research) | Language models suggest stock ideas, and plain Python checks and backtest-overfitting tests decide which survive. It cannot place orders | Python |
 
 #### Data
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse) | MRR, cohort retention and unit economics for a fictional SaaS company, with incremental loads and SCD2 history | dbt, DuckDB, SQL |
-| [powerlift](https://github.com/ult666666/powerlift) | A/B and A/B/n test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
-| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit that never count anyone twice, with a hash-chained audit log | TypeScript, Python, SQLite |
+| [SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse) · [v0.2.0](https://github.com/ult666666/saas-analytics-warehouse/releases/tag/v0.2.0) | MRR, cohort retention and unit economics for a fictional SaaS company, with incremental loads and SCD2 history | dbt, DuckDB, SQL |
+| [powerlift](https://github.com/ult666666/powerlift) · [v0.2.0](https://github.com/ult666666/powerlift/releases/tag/v0.2.0) | A/B and A/B/n test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
+| [Impact Ledger](https://github.com/ult666666/impact-ledger) · [v1.3.0](https://github.com/ult666666/impact-ledger/releases/tag/v1.3.0) | Attendance and spending reports for a fictional nonprofit that never count anyone twice, with a hash-chained audit log | TypeScript, Python, SQLite |
 
 #### AI and backend
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Reviews database schema changes, with lineage from DataHub or a dbt manifest, and keeps the evidence behind each verdict | Node.js, SQLite |
-| [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags any claim its sources don't support | Python, Claude API, SQLite |
-| [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs and tells them from noise with statistical gates | Python |
-| [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that drops duplicate deliveries, and a signed sender with retries and replay | Python, SQLite |
-| [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking and skips work without changing the results | TypeScript |
+| [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) · [v2.1.0](https://github.com/ult666666/lineageguard-datahub-agent/releases/tag/v2.1.0) | Reviews database schema changes, with lineage from DataHub or a dbt manifest, and keeps the evidence behind each verdict | Node.js, SQLite |
+| [citecheck](https://github.com/ult666666/citecheck) · [v0.2.0](https://github.com/ult666666/citecheck/releases/tag/v0.2.0) | Answers questions from your documents and flags any claim its sources don't support | Python, Claude API, SQLite |
+| [TraceBench](https://github.com/ult666666/tracebench) · [v0.5.0](https://github.com/ult666666/tracebench/releases/tag/v0.5.0) | Catches regressions in recorded AI outputs and tells them from noise with statistical gates | Python |
+| [RelayBox](https://github.com/ult666666/relaybox) · [v0.5.0](https://github.com/ult666666/relaybox/releases/tag/v0.5.0) | A webhook inbox that drops duplicate deliveries, and a signed sender with retries and replay | Python, SQLite |
+| [searchlite](https://github.com/ult666666/searchlite) · [v0.3.0](https://github.com/ult666666/searchlite/releases/tag/v0.3.0) | A search engine written from scratch that explains each result's ranking and skips work without changing the results | TypeScript |
 | [ProofCast](https://github.com/ult666666/proofcast-backblaze) | Generates narration and cover art locally, hashes every file, signs the manifest and logs it in a Merkle transparency log | Python, Streamlit |
 
 #### Product and design
@@ -73,7 +73,7 @@ Each README opens with what the project does and the few commands to run it. Hos
 | --- | --- | --- |
 | [Luma Keys](https://github.com/ult666666/luma-keys) | Piano practice app with sheet music, falling notes and 3-D hands | Electron, React, three.js |
 | [MOTIONX Studio](https://github.com/ult666666/motionx-studio) | The website for my motion-design studio, [madebymotionx.com](https://madebymotionx.com/) | Next.js, TypeScript |
-| [ContrastKit](https://github.com/ult666666/contrastkit) | Checks color contrast, finds the nearest passing color with the same hue and simulates color vision deficiency at any severity | TypeScript, React |
+| [ContrastKit](https://github.com/ult666666/contrastkit) · [v0.2.0](https://github.com/ult666666/contrastkit/releases/tag/v0.2.0) | Checks color contrast, finds the nearest passing color with the same hue and simulates color vision deficiency at any severity | TypeScript, React |
 | [Blast Radius Daily](https://github.com/ult666666/blast-radius-daily) | A one-minute Reddit puzzle about containing a bad schema change, playable by keyboard | TypeScript, Devvit |
 
 #### Small tools and coursework
