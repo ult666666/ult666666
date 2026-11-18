@@ -10,9 +10,9 @@ I build order-matching engines, ledgers, data pipelines and tools that check AI 
 
 | Project | What it is | Try it |
 | --- | --- | --- |
-| **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine with opening and closing call auctions, crash recovery and a market-data feed. A second, simpler engine checks every event, and the output is the same on every platform, in the browser and on any number of threads. | [Playground](https://ult666666.github.io/crossbook/) · [Case study](https://ult666666.github.io/projects/crossbook.html) |
+| **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine with opening and closing call auctions, crash recovery and a market-data feed. A 100,000-command replay produced 12,846 trades and the same final book hash in Rust and WebAssembly. | [Playground](https://ult666666.github.io/crossbook/) · [Replay the case study](https://ult666666.github.io/projects/crossbook.html#replay-a-session) |
 | **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | A valuation and financing tool for illustrative frontier AI lab scenarios, with seeded Monte Carlo value ranges. Separate Python scripts recheck the arithmetic. | [Live studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [How the math is checked](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
-| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard, using lineage from DataHub or a dbt manifest. A 105-case labelled benchmark in CI keeps its decisions from getting more lenient. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
+| **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard, using lineage from DataHub or a dbt manifest. CI checks whether a decision is more permissive than its label in a 105-case benchmark. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
 | **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data | Revenue and retention metrics for a fictional SaaS company, built and tested in dbt and DuckDB, with incremental loads checked against a full refresh. | [Report](https://ult666666.github.io/saas-analytics-warehouse/report/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
 | **[ledgerline](https://github.com/ult666666/ledgerline)** · backend | A double-entry ledger API with holds (two-phase transfers). Every entry must balance, and a retried request can't post twice. | [Wallet walkthrough](https://ult666666.github.io/projects/ledgerline.html) · [API examples](https://github.com/ult666666/ledgerline/blob/main/docs/API_WALKTHROUGH.md) |
 | **[Luma Keys](https://github.com/ult666666/luma-keys)** · product | A piano practice app for macOS with sheet music, falling notes and two 3-D hands that show the fingering. | [Overview](https://ult666666.github.io/#luma-keys) · [Hand motion design](https://github.com/ult666666/luma-keys/blob/main/docs/HAND_MOTION_DESIGN.md) |
@@ -21,7 +21,7 @@ I build order-matching engines, ledgers, data pipelines and tools that check AI 
 
 - **Ledger retries.** If a transfer spends the last dollar and its response gets lost, retrying with the same key should return the original receipt. The PostgreSQL test runs two requests against the same wallet. [Fix and regression test](https://github.com/ult666666/ledgerline/pull/16)
 - **Revenue reporting.** A June 14 data load used to produce June 30 balances. The warehouse now waits for a complete calendar month before publishing month-end revenue, while daily subscription history stays available. [SQL and worked example](https://github.com/ult666666/saas-analytics-warehouse/pull/8)
-- **Citation checks.** Two copies of the same policy used to make a contradicted claim pass. CiteCheck now records which passages supplied the matching sentence and checks the contradiction once. [Example and tests](https://github.com/ult666666/citecheck/pull/15)
+- **Citation checks.** Two copies of the same policy used to make a contradicted claim pass. CiteCheck now records which passages supplied the matching sentence and checks the contradiction once. On 77 held-out sentences, the checker caught 44 of 48 unsupported sentences and flagged 2 of 29 supported ones. [Evaluation](https://github.com/ult666666/citecheck/blob/79ae1a81a0e7362508848070f861c6cd449d6bc5/docs/EVALUATION.md) · [Example and tests](https://github.com/ult666666/citecheck/pull/15)
 
 I use AI coding assistants and review, test and document the results. Hosted demos use synthetic data.
 
@@ -50,14 +50,14 @@ I use AI coding assistants and review, test and document the results. Hosted dem
 | --- | --- | --- |
 | [SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse) | MRR, cohort retention and unit economics for a fictional SaaS company, with incremental loads and SCD2 history | dbt, DuckDB, SQL |
 | [powerlift](https://github.com/ult666666/powerlift) | A/B and A/B/n test statistics checked against SciPy, statsmodels and published tables | Python, SciPy |
-| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit that never count anyone twice, with a hash-chained audit log | TypeScript, Python, SQLite |
+| [Impact Ledger](https://github.com/ult666666/impact-ledger) | Attendance and spending reports for a fictional nonprofit, with unique participant counts across selected sessions and a hash-chained audit log | TypeScript, Python, SQLite |
 
 #### AI and backend
 
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent) | Reviews database schema changes, with lineage from DataHub or a dbt manifest, and keeps the evidence behind each verdict | Node.js, SQLite |
-| [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags any claim its sources don't support | Python, Claude API, SQLite |
+| [citecheck](https://github.com/ult666666/citecheck) | Answers questions from your documents and flags claims that conflict with or lack support in their cited passages | Python, Claude API, SQLite |
 | [TraceBench](https://github.com/ult666666/tracebench) | Catches regressions in recorded AI outputs and tells them from noise with statistical gates | Python |
 | [RelayBox](https://github.com/ult666666/relaybox) | A webhook inbox that drops duplicate deliveries, and a signed sender with retries and replay | Python, SQLite |
 | [searchlite](https://github.com/ult666666/searchlite) | A search engine written from scratch that explains each result's ranking and skips work without changing the results | TypeScript |
