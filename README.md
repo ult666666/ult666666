@@ -2,15 +2,9 @@
 
 **Carnegie Mellon University** · Human-Computer Interaction
 
-My projects accentuates in order-matching engines, ledgers, data pipelines and tools that check AI output. I mostly write Python, JavaScript, C++, TypeScript, SQL and Rust. I'm always looking for challenges in software engineering, agentic AI engineering, fintech and data science.
+I build order-matching engines, ledgers, data pipelines and tools that check AI answers against their sources. I’m looking for software and AI engineering internships, especially in fintech and data science.
 
 [Portfolio](https://ult666666.github.io/) · [Project explorer](https://ult666666.github.io/projects/catalog.html) · [Fintech work](https://ult666666.github.io/fintech.html) · [Agent skills on Agensi](https://agensi.io) · [Email](mailto:hello@madebymotionx.com)
-
-## Featured: agent skills
-
-I also write agent skills: 20 skills in the `SKILL.md` format for Claude Code, Codex and other coding agents. Each is a short workflow plus a small offline script, so the agent works from numbers that come out the same on every run. They cover security checks, API and database migration review, data and finance audits, and LLM evals.
-
-The skills are sold on [Agensi](https://agensi.io), a SKILL.md marketplace.
 
 ## Selected projects
 
@@ -19,15 +13,17 @@ The skills are sold on [Agensi](https://agensi.io), a SKILL.md marketplace.
 | **[crossbook](https://github.com/ult666666/crossbook)** · Rust | An order-matching engine with opening and closing call auctions, crash recovery and a market-data feed. A second, simpler engine checks every event, and the output is the same on every platform, in the browser and on any number of threads. | [Playground](https://ult666666.github.io/crossbook/) · [Case study](https://ult666666.github.io/projects/crossbook.html) |
 | **[Frontier AI Valuation Lab](https://github.com/ult666666/frontier-ai-valuation-lab)** · fintech | A valuation and financing tool for illustrative frontier AI lab scenarios, with seeded Monte Carlo value ranges. Separate Python scripts recheck the arithmetic. | [Live studio](https://frontier-ai-valuation-lab.vercel.app/capital.html#worked-decision) · [How the math is checked](https://github.com/ult666666/frontier-ai-valuation-lab/blob/main/docs/VERIFICATION.md) |
 | **[LineageGuard Studio](https://github.com/ult666666/lineageguard-datahub-agent)** · AI engineering | Reviews a database schema change before it breaks a downstream dashboard, using lineage from DataHub or a dbt manifest. A 105-case labelled benchmark in CI keeps its decisions from getting more lenient. | [Live demo](https://lineageguard-datahub-agent.vercel.app/) · [Case study](https://ult666666.github.io/projects/lineageguard.html) |
-| **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data | Revenue and retention metrics for a fictional SaaS company, built and tested in dbt and DuckDB, with incremental loads checked against a full refresh. | [Report](https://ult666666.github.io/saas-analytics-warehouse/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
-| **[ledgerline](https://github.com/ult666666/ledgerline)** · backend | A double-entry ledger API with holds (two-phase transfers). Every entry must balance, and a retried request can't post twice. | [API walkthrough](https://github.com/ult666666/ledgerline/blob/main/docs/API_WALKTHROUGH.md) · [Design notes](https://github.com/ult666666/ledgerline/blob/main/docs/DESIGN.md) |
+| **[SaaS Analytics Warehouse](https://github.com/ult666666/saas-analytics-warehouse)** · data | Revenue and retention metrics for a fictional SaaS company, built and tested in dbt and DuckDB, with incremental loads checked against a full refresh. | [Report](https://ult666666.github.io/saas-analytics-warehouse/report/) · [Metric definitions](https://github.com/ult666666/saas-analytics-warehouse/blob/main/docs/METRICS.md) |
+| **[ledgerline](https://github.com/ult666666/ledgerline)** · backend | A double-entry ledger API with holds (two-phase transfers). Every entry must balance, and a retried request can't post twice. | [Wallet walkthrough](https://ult666666.github.io/projects/ledgerline.html) · [API examples](https://github.com/ult666666/ledgerline/blob/main/docs/API_WALKTHROUGH.md) |
 | **[Luma Keys](https://github.com/ult666666/luma-keys)** · product | A piano practice app for macOS with sheet music, falling notes and two 3-D hands that show the fingering. | [Overview](https://ult666666.github.io/#luma-keys) · [Hand motion design](https://github.com/ult666666/luma-keys/blob/main/docs/HAND_MOTION_DESIGN.md) |
 
-## How I work
+## How I check the work
 
-I check my work against answers I didn't write myself. quantkit reproduces textbook option prices, powerlift matches published sequential-testing tables, and crossbook runs every command through two separate engines.
+- **Ledger retries.** If a transfer spends the last dollar and its response gets lost, retrying with the same key should return the original receipt. The PostgreSQL test runs two requests against the same wallet. [Fix and regression test](https://github.com/ult666666/ledgerline/pull/16)
+- **Revenue reporting.** A June 14 data load used to produce June 30 balances. The warehouse now waits for a complete calendar month before publishing month-end revenue, while daily subscription history stays available. [SQL and worked example](https://github.com/ult666666/saas-analytics-warehouse/pull/8)
+- **Citation checks.** Two copies of the same policy used to make a contradicted claim pass. CiteCheck now records which passages supplied the matching sentence and checks the contradiction once. [Example and tests](https://github.com/ult666666/citecheck/pull/15)
 
-Each README opens with what the project does and the few commands to run it. Hosted demos use synthetic data, and the READMEs say what a project doesn't do. I use AI coding assistants, then review, test and document what they produce.
+I use AI coding assistants and review, test and document the results. Hosted demos use synthetic data.
 
 <details>
 <summary><strong>All 21 projects by area</strong></summary>
@@ -84,6 +80,12 @@ Each README opens with what the project does and the few commands to run it. Hos
 | [Teen Budgeting](https://github.com/ult666666/teen-budgeting-hw3) | A classroom budgeting demo with fictional data | Node.js |
 
 </details>
+
+## Agent skills
+
+I also write agent skills: 20 skills in the `SKILL.md` format for Claude Code, Codex and other coding agents. Each is a short workflow plus a small offline script, so the agent works from numbers that come out the same on every run. They cover security checks, API and database migration review, data and finance audits, and LLM evals.
+
+The skills are sold on [Agensi](https://agensi.io), a SKILL.md marketplace.
 
 ## Toolkit
 
